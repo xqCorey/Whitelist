@@ -82,6 +82,41 @@ b:Button("No Rep Taking",function()
     NoRepTaking();
 end)
 
+d:Button("Crystle", function()
+    Crystle();
+end)
+
+d:Button("Zen", function()
+    Zen();
+end)
+
+d:Button("God Star", function()
+    GodStar();
+end)
+
+d:Button("FarAway", function()
+    FarAway();
+end)
+
+d:Button("City Port", function()
+    CityPort();
+end)
+
+d:Button("BT", function()
+    BT();
+end)
+
+d:Button("Top Of the Bridge", function()
+    TopBridge();
+end)
+
+d:Button("Spawn", function()
+    TpSpawn();
+end)
+
+d:Button("LeaderBoards", function()
+    LeaderBoards();
+end)
 
 
 b:Slider("Slider",{
@@ -190,4 +225,40 @@ end
 
 function NoRepTaking()
         game.Players.LocalPlayer.Character.Head.NameBbGui.NameTxt: Destroy()
+end
+
+function Crystle()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2231,1944,1048)
+end
+
+function Zen()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+end
+
+function GodStar()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+end
+
+function FarAway()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999,9999,9999)
+end
+
+function CityPort()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(353,249,-454)
+end
+
+function TpSpawn()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(343,249,852)
+end
+
+function LeaderBoards()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-770,249,750)
+end
+
+function TopBridge()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-150,408,58)
+end
+
+function BT()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
 end

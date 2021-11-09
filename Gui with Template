@@ -78,6 +78,19 @@ c:Button("Black Hub",function()
     Hub();
 end)
 
+c:Button("Spam Tp Sun",function()
+    SpamTpSun();
+end)
+
+c:Button("Spam Tp Body",function()
+    SpamTpBT();
+end)
+
+c:Button("Spam Tp Psychic",function()
+    SpamTpZen();
+end)
+
+
 b:Button("No Rep Taking",function()
     NoRepTaking();
 end)
@@ -261,4 +274,28 @@ end
 
 function BT()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+end
+
+function SpamTpSun()
+    I = 1
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+    end
+end
+
+function SpamTpBT()
+    I = 1
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+    end
+end
+
+function SpamTpZen()
+    I = 1
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+    end
 end

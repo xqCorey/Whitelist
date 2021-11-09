@@ -82,14 +82,25 @@ c:Button("Spam Tp Sun",function()
     SpamTpSun();
 end)
 
+c:Button("Spam Tp Sun Off",function()
+    SpamTpSunOff();
+end)
+
 c:Button("Spam Tp Body",function()
     SpamTpBT();
+end)
+
+c:Button("Spam Tp Body Off",function()
+    SpamTpBTOff();
 end)
 
 c:Button("Spam Tp Psychic",function()
     SpamTpZen();
 end)
 
+c:Button("Spam Tp Psychic Off",function()
+    SpamTpZenOff();
+end)
 
 b:Button("No Rep Taking",function()
     NoRepTaking();
@@ -140,12 +151,9 @@ b:Slider("Slider",{
     print(value)
 end)
 
-b:Dropdown("Dropdown",{"A","B","C"},true,function(mob) --true/false, replaces the current title "Dropdown" with the option that t
-    print(mob)
-end)
 
-f:Bind("Bind",Enum.KeyCode.C,function() --Default bind
-    print("Yes")
+f:Bind("",Enum.KeyCode.C,function() --Default bind
+    b.visible = false
 end)
 
 f:ColorPicker("ColorPicker",Color3.fromRGB(255,0,0),function(color) --Default color
@@ -284,8 +292,24 @@ function SpamTpSun()
     end
 end
 
+function SpamTpSunOff()
+    I = 0
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+    end
+end
+
 function SpamTpBT()
     I = 1
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+    end
+end
+
+function SpamTpBTOff()
+    I = 0
     while I == 1 do
         wait()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
@@ -299,3 +323,12 @@ function SpamTpZen()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
     end
 end
+
+function SpamTpZenOff()
+    I = 0
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+    end
+end
+

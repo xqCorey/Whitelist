@@ -169,7 +169,7 @@ f:DestroyGui()
 
 ----------- functions ---------------------------------------------------------------------------------------
 function AutoattackOn()
-    loadstring(game:HttpGet("", true))()
+    loadstring(game:HttpGet("https://github.com/xqCorey/Scripts/blob/Main/Auto%20Attack%20but%20shit%20version", true))()
 end
 
 function AutoattackOff()

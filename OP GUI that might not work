@@ -1,0 +1,976 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TheMostOPGUIUWILLEVERRECIEVE = Instance.new("ScreenGui")
+local WholeFrame = Instance.new("Frame")
+local SideMenu = Instance.new("Frame")
+local PvPButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local SettingsButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UniversalButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TrainingButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TeleportsButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SlideText = Instance.new("TextLabel")
+local UniversalFrame = Instance.new("Frame")
+local Yield = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local CDM = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local DanceScript = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local DexExplorer = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local PvPFrame = Instance.new("Frame")
+local AutoAttackOn = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local PsychicAllOff = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local PsychicAllOn = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local AutoAttackOff = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local PsychicToggle = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local PsychicToggle_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local CSpam = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local NoRepTaking = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Void = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Cbring = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local AntiPsychic = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Respawn = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local RemoveShield = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local SettingsFrame = Instance.new("Frame")
+local DestroyGui = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local PurpleTheme = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local DarkBlueTheme = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local OrangeTheme = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local PinkTheme = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TeleportsFrame = Instance.new("Frame")
+local TopBridge = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Sun = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local BT = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Zen = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Port = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Spawn = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Sun_2 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Sun_3 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local TrainingFrame = Instance.new("Frame")
+local Split = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Hub = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Stats = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local SpamSun = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local SpamBt = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local SpamZen = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Open = Instance.new("Frame")
+local UwUButton = Instance.new("ImageButton")
+
+--Properties:
+
+TheMostOPGUIUWILLEVERRECIEVE.Name = "The Most OP GUI U WILL EVER RECIEVE"
+TheMostOPGUIUWILLEVERRECIEVE.Parent = game.CoreGui
+TheMostOPGUIUWILLEVERRECIEVE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+WholeFrame.Name = "WholeFrame"
+WholeFrame.Parent = TheMostOPGUIUWILLEVERRECIEVE
+WholeFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+WholeFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+WholeFrame.BorderSizePixel = 4
+WholeFrame.Position = UDim2.new(0.111746028, 0, 0.226872265, 0)
+WholeFrame.Size = UDim2.new(0, 800, 0, 535)
+WholeFrame.Visible = false
+WholeFrame.Active = true
+wholeFrame.Draggable = true
+
+SideMenu.Name = "SideMenu"
+SideMenu.Parent = WholeFrame
+SideMenu.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+SideMenu.BackgroundTransparency = 0.550
+SideMenu.BorderColor3 = Color3.fromRGB(170, 0, 255)
+SideMenu.BorderSizePixel = 2
+SideMenu.Size = UDim2.new(0, 259, 0, 535)
+
+PvPButton.Name = "PvPButton"
+PvPButton.Parent = SideMenu
+PvPButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PvPButton.Position = UDim2.new(0, 26, 0, 71)
+PvPButton.Size = UDim2.new(0, 206, 0, 51)
+PvPButton.Font = Enum.Font.IndieFlower
+PvPButton.Text = "PVP"
+PvPButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+PvPButton.TextSize = 38.000
+
+UICorner.Parent = PvPButton
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = SideMenu
+SettingsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SettingsButton.Position = UDim2.new(0, 26, 0, 445)
+SettingsButton.Size = UDim2.new(0, 206, 0, 51)
+SettingsButton.Font = Enum.Font.IndieFlower
+SettingsButton.Text = "Settings"
+SettingsButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+SettingsButton.TextSize = 38.000
+
+UICorner_2.Parent = SettingsButton
+
+UniversalButton.Name = "UniversalButton"
+UniversalButton.Parent = SideMenu
+UniversalButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+UniversalButton.Position = UDim2.new(0, 26, 0, 261)
+UniversalButton.Size = UDim2.new(0, 206, 0, 51)
+UniversalButton.Font = Enum.Font.IndieFlower
+UniversalButton.Text = "Universal"
+UniversalButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+UniversalButton.TextSize = 38.000
+
+UICorner_3.Parent = UniversalButton
+
+TrainingButton.Name = "TrainingButton"
+TrainingButton.Parent = SideMenu
+TrainingButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TrainingButton.Position = UDim2.new(0, 26, 0, 168)
+TrainingButton.Size = UDim2.new(0, 206, 0, 51)
+TrainingButton.Font = Enum.Font.IndieFlower
+TrainingButton.Text = "Training"
+TrainingButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+TrainingButton.TextSize = 38.000
+
+UICorner_4.Parent = TrainingButton
+
+TeleportsButton.Name = "TeleportsButton"
+TeleportsButton.Parent = SideMenu
+TeleportsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TeleportsButton.Position = UDim2.new(0, 26, 0, 352)
+TeleportsButton.Size = UDim2.new(0, 206, 0, 51)
+TeleportsButton.Font = Enum.Font.IndieFlower
+TeleportsButton.Text = "Teleports"
+TeleportsButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+TeleportsButton.TextSize = 38.000
+
+UICorner_5.Parent = TeleportsButton
+
+SlideText.Name = "SlideText"
+SlideText.Parent = WholeFrame
+SlideText.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SlideText.BackgroundTransparency = 0.350
+SlideText.BorderColor3 = Color3.fromRGB(170, 0, 255)
+SlideText.BorderSizePixel = 2
+SlideText.Position = UDim2.new(0, 259, 0, 0)
+SlideText.Size = UDim2.new(0, 540, 0, 70)
+SlideText.Font = Enum.Font.IndieFlower
+SlideText.Text = "    This UWU GUI Thing"
+SlideText.TextColor3 = Color3.fromRGB(170, 0, 255)
+SlideText.TextSize = 43.000
+SlideText.TextWrapped = true
+
+UniversalFrame.Name = "UniversalFrame"
+UniversalFrame.Parent = WholeFrame
+UniversalFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+UniversalFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+UniversalFrame.BorderSizePixel = 2
+UniversalFrame.Position = UDim2.new(0.324243337, 0, 0.13287434, 0)
+UniversalFrame.Size = UDim2.new(0, 540, 0, 464)
+UniversalFrame.Visible = false
+
+Yield.Name = "Yield"
+Yield.Parent = UniversalFrame
+Yield.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Yield.Position = UDim2.new(0, 57, 0, 30)
+Yield.Size = UDim2.new(0, 426, 0, 55)
+Yield.Font = Enum.Font.Kalam
+Yield.Text = "Infinit Yield"
+Yield.TextColor3 = Color3.fromRGB(0, 255, 255)
+Yield.TextSize = 36.000
+
+UICorner_6.Parent = Yield
+
+CDM.Name = "CDM"
+CDM.Parent = UniversalFrame
+CDM.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+CDM.Position = UDim2.new(0, 56, 0, 149)
+CDM.Size = UDim2.new(0, 426, 0, 55)
+CDM.Font = Enum.Font.Kalam
+CDM.Text = "CDM - X"
+CDM.TextColor3 = Color3.fromRGB(0, 255, 255)
+CDM.TextSize = 36.000
+
+UICorner_7.Parent = CDM
+
+DanceScript.Name = "Dance Script"
+DanceScript.Parent = UniversalFrame
+DanceScript.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+DanceScript.Position = UDim2.new(0, 56, 0, 259)
+DanceScript.Size = UDim2.new(0, 426, 0, 55)
+DanceScript.Font = Enum.Font.Kalam
+DanceScript.Text = "Dance Script"
+DanceScript.TextColor3 = Color3.fromRGB(0, 255, 255)
+DanceScript.TextSize = 36.000
+
+UICorner_8.Parent = DanceScript
+
+DexExplorer.Name = "Dex Explorer"
+DexExplorer.Parent = UniversalFrame
+DexExplorer.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+DexExplorer.Position = UDim2.new(0, 56, 0, 369)
+DexExplorer.Size = UDim2.new(0, 426, 0, 55)
+DexExplorer.Font = Enum.Font.Kalam
+DexExplorer.Text = "Dex Explorer"
+DexExplorer.TextColor3 = Color3.fromRGB(0, 255, 255)
+DexExplorer.TextSize = 36.000
+
+UICorner_9.Parent = DexExplorer
+
+PvPFrame.Name = "PvPFrame"
+PvPFrame.Parent = WholeFrame
+PvPFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PvPFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+PvPFrame.BorderSizePixel = 2
+PvPFrame.Position = UDim2.new(0.324243337, 0, 0.13287434, 0)
+PvPFrame.Size = UDim2.new(0, 540, 0, 464)
+PvPFrame.Visible = false
+
+AutoAttackOn.Name = "AutoAttackOn"
+AutoAttackOn.Parent = PvPFrame
+AutoAttackOn.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AutoAttackOn.Position = UDim2.new(0, 26, 0, 35)
+AutoAttackOn.Size = UDim2.new(0, 172, 0, 55)
+AutoAttackOn.Font = Enum.Font.Kalam
+AutoAttackOn.Text = "Auto Attack On"
+AutoAttackOn.TextColor3 = Color3.fromRGB(0, 255, 255)
+AutoAttackOn.TextSize = 36.000
+
+UICorner_10.Parent = AutoAttackOn
+
+PsychicAllOff.Name = "PsychicAllOff"
+PsychicAllOff.Parent = PvPFrame
+PsychicAllOff.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PsychicAllOff.Position = UDim2.new(0, 217, 0, 124)
+PsychicAllOff.Size = UDim2.new(0, 172, 0, 55)
+PsychicAllOff.Font = Enum.Font.Kalam
+PsychicAllOff.Text = "Psychic All Off"
+PsychicAllOff.TextColor3 = Color3.fromRGB(0, 255, 255)
+PsychicAllOff.TextSize = 36.000
+
+UICorner_11.Parent = PsychicAllOff
+
+PsychicAllOn.Name = "PsychicAllOn"
+PsychicAllOn.Parent = PvPFrame
+PsychicAllOn.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PsychicAllOn.Position = UDim2.new(0, 217, 0, 35)
+PsychicAllOn.Size = UDim2.new(0, 172, 0, 55)
+PsychicAllOn.Font = Enum.Font.Kalam
+PsychicAllOn.Text = "Psychic All On"
+PsychicAllOn.TextColor3 = Color3.fromRGB(0, 255, 255)
+PsychicAllOn.TextSize = 36.000
+
+UICorner_12.Parent = PsychicAllOn
+
+AutoAttackOff.Name = "AutoAttackOff"
+AutoAttackOff.Parent = PvPFrame
+AutoAttackOff.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AutoAttackOff.Position = UDim2.new(0, 26, 0, 124)
+AutoAttackOff.Size = UDim2.new(0, 172, 0, 55)
+AutoAttackOff.Font = Enum.Font.Kalam
+AutoAttackOff.Text = "Auto Attack Off"
+AutoAttackOff.TextColor3 = Color3.fromRGB(0, 255, 255)
+AutoAttackOff.TextSize = 36.000
+
+UICorner_13.Parent = AutoAttackOff
+
+PsychicToggle.Name = "PsychicToggle"
+PsychicToggle.Parent = PvPFrame
+PsychicToggle.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PsychicToggle.Position = UDim2.new(0, 409, 0, 35)
+PsychicToggle.Size = UDim2.new(0, 117, 0, 55)
+PsychicToggle.Font = Enum.Font.Kalam
+PsychicToggle.Text = "Psy Toggle"
+PsychicToggle.TextColor3 = Color3.fromRGB(0, 255, 255)
+PsychicToggle.TextSize = 36.000
+
+UICorner_14.Parent = PsychicToggle
+
+PsychicToggle_2.Name = "PsychicToggle"
+PsychicToggle_2.Parent = PvPFrame
+PsychicToggle_2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PsychicToggle_2.Position = UDim2.new(0, 409, 0, 124)
+PsychicToggle_2.Size = UDim2.new(0, 117, 0, 55)
+PsychicToggle_2.Font = Enum.Font.Kalam
+PsychicToggle_2.Text = "God Gui"
+PsychicToggle_2.TextColor3 = Color3.fromRGB(0, 255, 255)
+PsychicToggle_2.TextSize = 36.000
+
+UICorner_15.Parent = PsychicToggle_2
+
+CSpam.Name = "CSpam"
+CSpam.Parent = PvPFrame
+CSpam.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+CSpam.Position = UDim2.new(0, 409, 0, 205)
+CSpam.Size = UDim2.new(0, 117, 0, 55)
+CSpam.Font = Enum.Font.Kalam
+CSpam.Text = "C SPAM"
+CSpam.TextColor3 = Color3.fromRGB(0, 255, 255)
+CSpam.TextSize = 36.000
+
+UICorner_16.Parent = CSpam
+
+NoRepTaking.Name = "NoRepTaking"
+NoRepTaking.Parent = PvPFrame
+NoRepTaking.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+NoRepTaking.Position = UDim2.new(0, 26, 0, 205)
+NoRepTaking.Size = UDim2.new(0, 172, 0, 55)
+NoRepTaking.Font = Enum.Font.Kalam
+NoRepTaking.Text = "No Rep Taking"
+NoRepTaking.TextColor3 = Color3.fromRGB(0, 255, 255)
+NoRepTaking.TextSize = 36.000
+
+UICorner_17.Parent = NoRepTaking
+
+Void.Name = "Void"
+Void.Parent = PvPFrame
+Void.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Void.Position = UDim2.new(0, 26, 0, 379)
+Void.Size = UDim2.new(0, 172, 0, 55)
+Void.Font = Enum.Font.Kalam
+Void.Text = "Void"
+Void.TextColor3 = Color3.fromRGB(0, 255, 255)
+Void.TextSize = 36.000
+
+UICorner_18.Parent = Void
+
+Cbring.Name = "Cbring"
+Cbring.Parent = PvPFrame
+Cbring.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Cbring.Position = UDim2.new(0, 217, 0, 205)
+Cbring.Size = UDim2.new(0, 172, 0, 55)
+Cbring.Font = Enum.Font.Kalam
+Cbring.Text = "Cbring"
+Cbring.TextColor3 = Color3.fromRGB(0, 255, 255)
+Cbring.TextSize = 36.000
+
+UICorner_19.Parent = Cbring
+
+AntiPsychic.Name = "AntiPsychic"
+AntiPsychic.Parent = PvPFrame
+AntiPsychic.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AntiPsychic.Position = UDim2.new(0, 26, 0, 295)
+AntiPsychic.Size = UDim2.new(0, 172, 0, 55)
+AntiPsychic.Font = Enum.Font.Kalam
+AntiPsychic.Text = "AntiPsychic"
+AntiPsychic.TextColor3 = Color3.fromRGB(0, 255, 255)
+AntiPsychic.TextSize = 36.000
+
+UICorner_20.Parent = AntiPsychic
+
+Respawn.Name = "Respawn"
+Respawn.Parent = PvPFrame
+Respawn.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Respawn.Position = UDim2.new(0, 217, 0, 295)
+Respawn.Size = UDim2.new(0, 309, 0, 55)
+Respawn.Font = Enum.Font.Kalam
+Respawn.Text = "Auto Respawn"
+Respawn.TextColor3 = Color3.fromRGB(0, 255, 255)
+Respawn.TextSize = 36.000
+
+UICorner_21.Parent = Respawn
+
+RemoveShield.Name = "RemoveShield"
+RemoveShield.Parent = PvPFrame
+RemoveShield.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+RemoveShield.Position = UDim2.new(0, 217, 0, 379)
+RemoveShield.Size = UDim2.new(0, 309, 0, 55)
+RemoveShield.Font = Enum.Font.Kalam
+RemoveShield.Text = "Shield Remove"
+RemoveShield.TextColor3 = Color3.fromRGB(0, 255, 255)
+RemoveShield.TextSize = 36.000
+
+UICorner_22.Parent = RemoveShield
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = WholeFrame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SettingsFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+SettingsFrame.BorderSizePixel = 2
+SettingsFrame.Position = UDim2.new(0.324243337, 0, 0.13287434, 0)
+SettingsFrame.Size = UDim2.new(0, 540, 0, 464)
+SettingsFrame.Visible = false
+
+DestroyGui.Name = "Destroy Gui"
+DestroyGui.Parent = SettingsFrame
+DestroyGui.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+DestroyGui.Position = UDim2.new(0, 57, 0, 373)
+DestroyGui.Size = UDim2.new(0, 426, 0, 55)
+DestroyGui.Font = Enum.Font.Kalam
+DestroyGui.Text = "Destroy Gui"
+DestroyGui.TextColor3 = Color3.fromRGB(0, 255, 255)
+DestroyGui.TextSize = 36.000
+
+UICorner_23.Parent = DestroyGui
+
+PurpleTheme.Name = "PurpleTheme"
+PurpleTheme.Parent = SettingsFrame
+PurpleTheme.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PurpleTheme.Position = UDim2.new(0, 57, 0, 23)
+PurpleTheme.Size = UDim2.new(0, 426, 0, 55)
+PurpleTheme.Font = Enum.Font.Kalam
+PurpleTheme.Text = "Purple Theme"
+PurpleTheme.TextColor3 = Color3.fromRGB(170, 0, 255)
+PurpleTheme.TextSize = 36.000
+
+UICorner_24.Parent = PurpleTheme
+
+DarkBlueTheme.Name = "DarkBlueTheme"
+DarkBlueTheme.Parent = SettingsFrame
+DarkBlueTheme.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+DarkBlueTheme.Position = UDim2.new(0, 57, 0, 112)
+DarkBlueTheme.Size = UDim2.new(0, 426, 0, 55)
+DarkBlueTheme.Font = Enum.Font.Kalam
+DarkBlueTheme.Text = "Dark Blue Theme"
+DarkBlueTheme.TextColor3 = Color3.fromRGB(0, 0, 255)
+DarkBlueTheme.TextSize = 36.000
+
+UICorner_25.Parent = DarkBlueTheme
+
+OrangeTheme.Name = "OrangeTheme"
+OrangeTheme.Parent = SettingsFrame
+OrangeTheme.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+OrangeTheme.Position = UDim2.new(0, 57, 0, 198)
+OrangeTheme.Size = UDim2.new(0, 426, 0, 55)
+OrangeTheme.Font = Enum.Font.Kalam
+OrangeTheme.Text = "Orange Theme"
+OrangeTheme.TextColor3 = Color3.fromRGB(255, 85, 0)
+OrangeTheme.TextSize = 36.000
+
+UICorner_26.Parent = OrangeTheme
+
+PinkTheme.Name = "PinkTheme"
+PinkTheme.Parent = SettingsFrame
+PinkTheme.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PinkTheme.Position = UDim2.new(0, 57, 0, 287)
+PinkTheme.Size = UDim2.new(0, 426, 0, 55)
+PinkTheme.Font = Enum.Font.Kalam
+PinkTheme.Text = "Pink Theme"
+PinkTheme.TextColor3 = Color3.fromRGB(255, 0, 255)
+PinkTheme.TextSize = 36.000
+
+UICorner_27.Parent = PinkTheme
+
+TextLabel.Parent = SettingsFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.948275864, 0)
+TextLabel.Size = UDim2.new(0, 524, 0, 24)
+TextLabel.Font = Enum.Font.AmaticSC
+TextLabel.Text = "NOTE: THIS WILL START GOING RAINBOW AND ALL SORTS OF COLOURS IF YOU SPAM :)"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel.TextSize = 25.000
+
+TeleportsFrame.Name = "TeleportsFrame"
+TeleportsFrame.Parent = WholeFrame
+TeleportsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TeleportsFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+TeleportsFrame.BorderSizePixel = 2
+TeleportsFrame.Position = UDim2.new(0.324243337, 0, 0.13287434, 0)
+TeleportsFrame.Size = UDim2.new(0, 540, 0, 464)
+TeleportsFrame.Visible = false
+
+TopBridge.Name = "TopBridge"
+TopBridge.Parent = TeleportsFrame
+TopBridge.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+TopBridge.Position = UDim2.new(0, 43, 0, 30)
+TopBridge.Size = UDim2.new(0, 453, 0, 55)
+TopBridge.Font = Enum.Font.Kalam
+TopBridge.Text = "Top Bridge (Best Cbring Spot)"
+TopBridge.TextColor3 = Color3.fromRGB(0, 255, 255)
+TopBridge.TextSize = 36.000
+
+UICorner_28.Parent = TopBridge
+
+Sun.Name = "Sun"
+Sun.Parent = TeleportsFrame
+Sun.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Sun.Position = UDim2.new(0, 43, 0, 98)
+Sun.Size = UDim2.new(0, 220, 0, 55)
+Sun.Font = Enum.Font.Kalam
+Sun.Text = "Sun"
+Sun.TextColor3 = Color3.fromRGB(0, 255, 255)
+Sun.TextSize = 36.000
+
+UICorner_29.Parent = Sun
+
+BT.Name = "BT"
+BT.Parent = TeleportsFrame
+BT.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+BT.Position = UDim2.new(0, 276, 0, 98)
+BT.Size = UDim2.new(0, 220, 0, 55)
+BT.Font = Enum.Font.Kalam
+BT.Text = "BT"
+BT.TextColor3 = Color3.fromRGB(0, 255, 255)
+BT.TextSize = 36.000
+
+UICorner_30.Parent = BT
+
+Zen.Name = "Zen"
+Zen.Parent = TeleportsFrame
+Zen.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Zen.Position = UDim2.new(0, 43, 0, 166)
+Zen.Size = UDim2.new(0, 220, 0, 55)
+Zen.Font = Enum.Font.Kalam
+Zen.Text = "Zen"
+Zen.TextColor3 = Color3.fromRGB(0, 255, 255)
+Zen.TextSize = 36.000
+
+UICorner_31.Parent = Zen
+
+Port.Name = "Port"
+Port.Parent = TeleportsFrame
+Port.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Port.Position = UDim2.new(0, 276, 0, 166)
+Port.Size = UDim2.new(0, 220, 0, 55)
+Port.Font = Enum.Font.Kalam
+Port.Text = "City Port"
+Port.TextColor3 = Color3.fromRGB(0, 255, 255)
+Port.TextSize = 36.000
+
+UICorner_32.Parent = Port
+
+Spawn.Name = "Spawn"
+Spawn.Parent = TeleportsFrame
+Spawn.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Spawn.Position = UDim2.new(0, 43, 0, 238)
+Spawn.Size = UDim2.new(0, 453, 0, 55)
+Spawn.Font = Enum.Font.Kalam
+Spawn.Text = "Spawn"
+Spawn.TextColor3 = Color3.fromRGB(0, 255, 255)
+Spawn.TextSize = 36.000
+
+UICorner_33.Parent = Spawn
+
+Sun_2.Name = "Sun"
+Sun_2.Parent = TeleportsFrame
+Sun_2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Sun_2.Position = UDim2.new(0, 43, 0, 307)
+Sun_2.Size = UDim2.new(0, 453, 0, 55)
+Sun_2.Font = Enum.Font.Kalam
+Sun_2.Text = "LeaderBoards"
+Sun_2.TextColor3 = Color3.fromRGB(0, 255, 255)
+Sun_2.TextSize = 36.000
+
+UICorner_34.Parent = Sun_2
+
+Sun_3.Name = "Sun"
+Sun_3.Parent = TeleportsFrame
+Sun_3.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Sun_3.Position = UDim2.new(0, 43, 0, 378)
+Sun_3.Size = UDim2.new(0, 453, 0, 55)
+Sun_3.Font = Enum.Font.Kalam
+Sun_3.Text = "Far Away (Helps get away from psychic)"
+Sun_3.TextColor3 = Color3.fromRGB(0, 255, 255)
+Sun_3.TextSize = 36.000
+
+UICorner_35.Parent = Sun_3
+
+TrainingFrame.Name = "TrainingFrame"
+TrainingFrame.Parent = WholeFrame
+TrainingFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TrainingFrame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+TrainingFrame.BorderSizePixel = 2
+TrainingFrame.Position = UDim2.new(0.324243337, 0, 0.13287434, 0)
+TrainingFrame.Size = UDim2.new(0, 540, 0, 464)
+TrainingFrame.Visible = false
+
+Split.Name = "Split"
+Split.Parent = TrainingFrame
+Split.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Split.Position = UDim2.new(0, 43, 0, 23)
+Split.Size = UDim2.new(0, 453, 0, 55)
+Split.Font = Enum.Font.Kalam
+Split.Text = "TP SPLIT"
+Split.TextColor3 = Color3.fromRGB(0, 255, 255)
+Split.TextSize = 36.000
+
+UICorner_36.Parent = Split
+
+Hub.Name = "Hub"
+Hub.Parent = TrainingFrame
+Hub.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Hub.Position = UDim2.new(0, 43, 0, 96)
+Hub.Size = UDim2.new(0, 453, 0, 55)
+Hub.Font = Enum.Font.Kalam
+Hub.Text = "Black Hub"
+Hub.TextColor3 = Color3.fromRGB(0, 255, 255)
+Hub.TextSize = 36.000
+
+UICorner_37.Parent = Hub
+
+Stats.Name = "Stats"
+Stats.Parent = TrainingFrame
+Stats.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Stats.Position = UDim2.new(0, 43, 0, 167)
+Stats.Size = UDim2.new(0, 453, 0, 55)
+Stats.Font = Enum.Font.Kalam
+Stats.Text = "Stats Checker"
+Stats.TextColor3 = Color3.fromRGB(0, 255, 255)
+Stats.TextSize = 36.000
+
+UICorner_38.Parent = Stats
+
+SpamSun.Name = "SpamSun"
+SpamSun.Parent = TrainingFrame
+SpamSun.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SpamSun.Position = UDim2.new(0, 43, 0, 238)
+SpamSun.Size = UDim2.new(0, 453, 0, 55)
+SpamSun.Font = Enum.Font.Kalam
+SpamSun.Text = "TP Spam Sun"
+SpamSun.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamSun.TextSize = 36.000
+
+UICorner_39.Parent = SpamSun
+
+SpamBt.Name = "SpamBt"
+SpamBt.Parent = TrainingFrame
+SpamBt.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SpamBt.Position = UDim2.new(0, 43, 0, 313)
+SpamBt.Size = UDim2.new(0, 453, 0, 55)
+SpamBt.Font = Enum.Font.Kalam
+SpamBt.Text = "TP Spam Bt"
+SpamBt.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamBt.TextSize = 36.000
+
+UICorner_40.Parent = SpamBt
+
+SpamZen.Name = "SpamZen"
+SpamZen.Parent = TrainingFrame
+SpamZen.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SpamZen.Position = UDim2.new(0, 43, 0, 388)
+SpamZen.Size = UDim2.new(0, 453, 0, 55)
+SpamZen.Font = Enum.Font.Kalam
+SpamZen.Text = "TP Spam Zen"
+SpamZen.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamZen.TextSize = 36.000
+
+UICorner_41.Parent = SpamZen
+
+Open.Name = "Open"
+Open.Parent = TheMostOPGUIUWILLEVERRECIEVE
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.00698412675, 0, 0.710352421, 0)
+Open.Size = UDim2.new(0, 88, 0, 83)
+
+UwUButton.Name = "UwUButton"
+UwUButton.Parent = Open
+UwUButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UwUButton.Size = UDim2.new(0, 88, 0, 83)
+UwUButton.Image = "rbxassetid://7835675117"
+
+-- Scripts:
+
+local function VYEXEVO_fake_script() -- PvPButton.LocalScript 
+	local script = Instance.new('LocalScript', PvPButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.PvPFrame.Visible == false then
+			script.parent.Parent.Parent.PvPFrame.Visible = true
+			script.parent.Parent.Parent.SettingsFrame.Visible = false
+			script.parent.Parent.Parent.TeleportsFrame.Visible = false
+			script.parent.Parent.Parent.TrainingFrame.Visible = false
+			script.parent.Parent.Parent.UniversalFrame.Visible = false
+			
+		elseif script.parent.Parent.Parent.PvPFrame.Visible == true then
+			script.parent.Parent.Parent.PvPFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(VYEXEVO_fake_script)()
+local function APJO_fake_script() -- SettingsButton.LocalScript 
+	local script = Instance.new('LocalScript', SettingsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.SettingsFrame.Visible == false then
+			script.parent.Parent.Parent.SettingsFrame.Visible = true
+			script.parent.Parent.Parent.PvPFrame.Visible = false
+			script.parent.Parent.Parent.TeleportsFrame.Visible = false
+			script.parent.Parent.Parent.TrainingFrame.Visible = false
+			script.parent.Parent.Parent.UniversalFrame.Visible = false
+	
+		elseif script.parent.Parent.Parent.SettingsFrame.Visible == true then
+			script.parent.Parent.Parent.SettingsFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(APJO_fake_script)()
+local function BPHRWP_fake_script() -- UniversalButton.LocalScript 
+	local script = Instance.new('LocalScript', UniversalButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.UniversalFrame.Visible == false then
+			script.parent.Parent.Parent.UniversalFrame.Visible = true
+			script.parent.Parent.Parent.PvPFrame.Visible = false
+			script.parent.Parent.Parent.TeleportsFrame.Visible = false
+			script.parent.Parent.Parent.TrainingFrame.Visible = false
+			script.parent.Parent.Parent.SettingsFrame.Visible = false
+	
+		elseif script.parent.Parent.Parent.UniversalFrame.Visible == true then
+			script.parent.Parent.Parent.UniversalFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(BPHRWP_fake_script)()
+local function FKJYAOD_fake_script() -- TrainingButton.LocalScript 
+	local script = Instance.new('LocalScript', TrainingButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.TrainingFrame.Visible == false then
+			script.parent.Parent.Parent.TrainingFrame.Visible = true
+			script.parent.Parent.Parent.PvPFrame.Visible = false
+			script.parent.Parent.Parent.TeleportsFrame.Visible = false
+			script.parent.Parent.Parent.UniversalFrame.Visible = false
+			script.parent.Parent.Parent.SettingsFrame.Visible = false
+	
+		elseif script.parent.Parent.Parent.TrainingFrame.Visible == true then
+			script.parent.Parent.Parent.TrainingFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(FKJYAOD_fake_script)()
+local function YFJIXP_fake_script() -- TeleportsButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.TeleportsFrame.Visible == false then
+			script.parent.Parent.Parent.TeleportsFrame.Visible = true
+			script.parent.Parent.Parent.PvPFrame.Visible = false
+			script.parent.Parent.Parent.SettingsFrame.Visible = false
+			script.parent.Parent.Parent.TrainingFrame.Visible = false
+			script.parent.Parent.Parent.UniversalFrame.Visible = false
+	
+		elseif script.parent.Parent.Parent.TeleportsFrame.Visible == true then
+			script.parent.Parent.Parent.TeleportsFrame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(YFJIXP_fake_script)()
+local function HDTZKG_fake_script() -- PurpleTheme.LocalScript 
+	local script = Instance.new('LocalScript', PurpleTheme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local SettingsFrame = script.Parent.Parent
+		local WholeFrame = script.Parent.Parent.Parent
+		local PvPFrame = script.Parent.Parent.Parent.PvPFrame
+		local SideMenu = script.Parent.Parent.Parent.SideMenu
+		local TeleportsFrame = script.Parent.Parent.Parent.TeleportsFrame
+		local UniversalFrame = script.Parent.Parent.Parent.UniversalFrame
+		local TrainingFrame = script.Parent.Parent.Parent.TrainingFrame
+		local SlideText = script.Parent.Parent.Parent.SlideText
+	
+	
+	
+	
+		while true do
+			for hue = 0, 255, 4 do
+				SettingsFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				WholeFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				PvPFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				SideMenu.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				TeleportsFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				UniversalFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				TrainingFrame.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				SlideText.BorderColor3 = Color3.fromHSV(0.777778, 1, 1)
+				SlideText.TextColor3 = Color3.fromHSV(0.777778, 1, 1)
+				wait()
+			end
+		end
+	
+	
+	
+	
+	
+	
+	end)
+	
+	
+end
+coroutine.wrap(HDTZKG_fake_script)()
+local function MCAL_fake_script() -- DarkBlueTheme.Settings theme switch 
+	local script = Instance.new('LocalScript', DarkBlueTheme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local SettingsFrame = script.Parent.Parent
+		local WholeFrame = script.Parent.Parent.Parent
+		local PvPFrame = script.Parent.Parent.Parent.PvPFrame
+		local SideMenu = script.Parent.Parent.Parent.SideMenu
+		local TeleportsFrame = script.Parent.Parent.Parent.TeleportsFrame
+		local UniversalFrame = script.Parent.Parent.Parent.UniversalFrame
+		local TrainingFrame = script.Parent.Parent.Parent.TrainingFrame
+		local SlideText = script.Parent.Parent.Parent.SlideText
+	
+	
+	
+		
+		while true do
+			for hue = 0, 255, 4 do
+				SettingsFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				WholeFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				PvPFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				SideMenu.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				TeleportsFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				UniversalFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				TrainingFrame.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				SlideText.BorderColor3 = Color3.fromHSV(0.666667, 1, 1)
+				SlideText.TextColor3 = Color3.fromHSV(0.666667, 1, 1)
+				wait()
+			end
+		end
+		
+		
+		
+		
+		
+		
+	end)
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(MCAL_fake_script)()
+local function TBSLU_fake_script() -- OrangeTheme.LocalScript 
+	local script = Instance.new('LocalScript', OrangeTheme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local SettingsFrame = script.Parent.Parent
+		local WholeFrame = script.Parent.Parent.Parent
+		local PvPFrame = script.Parent.Parent.Parent.PvPFrame
+		local SideMenu = script.Parent.Parent.Parent.SideMenu
+		local TeleportsFrame = script.Parent.Parent.Parent.TeleportsFrame
+		local UniversalFrame = script.Parent.Parent.Parent.UniversalFrame
+		local TrainingFrame = script.Parent.Parent.Parent.TrainingFrame
+		local SlideText = script.Parent.Parent.Parent.SlideText
+	
+	
+	
+	
+		while true do
+			for hue = 0, 255, 4 do
+				SettingsFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				WholeFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				PvPFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				SideMenu.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				TeleportsFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				UniversalFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				TrainingFrame.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				SlideText.BorderColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				SlideText.TextColor3 = Color3.fromHSV(0.0555556, 1, 1)
+				wait()
+			end
+		end
+	
+	
+	
+	
+	
+	
+	end)
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(TBSLU_fake_script)()
+local function DGXYAW_fake_script() -- PinkTheme.LocalScript 
+	local script = Instance.new('LocalScript', PinkTheme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local SettingsFrame = script.Parent.Parent
+		local WholeFrame = script.Parent.Parent.Parent
+		local PvPFrame = script.Parent.Parent.Parent.PvPFrame
+		local SideMenu = script.Parent.Parent.Parent.SideMenu
+		local TeleportsFrame = script.Parent.Parent.Parent.TeleportsFrame
+		local UniversalFrame = script.Parent.Parent.Parent.UniversalFrame
+		local TrainingFrame = script.Parent.Parent.Parent.TrainingFrame
+		local SlideText = script.Parent.Parent.Parent.SlideText
+	
+	
+	
+	
+		while true do
+			for hue = 0, 255, 4 do
+				SettingsFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				WholeFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				PvPFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				SideMenu.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				TeleportsFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				UniversalFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				TrainingFrame.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				SlideText.BorderColor3 = Color3.fromHSV(0.833333, 1, 1)
+				SlideText.TextColor3 = Color3.fromHSV(0.833333, 1, 1)
+				wait()
+			end
+		end
+	
+	
+	
+	
+	
+	
+	end)
+	
+	
+end
+coroutine.wrap(DGXYAW_fake_script)()
+local function HYTXAYC_fake_script() -- UwUButton.LocalScript 
+	local script = Instance.new('LocalScript', UwUButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.parent.Parent.Parent.WholeFrame.Visible == false then
+			script.parent.Parent.Parent.WholeFrame.Visible = true
+			
+		elseif script.parent.Parent.Parent.WholeFrame.Visible == true then
+			script.parent.Parent.Parent.WholeFrame.Visible = false
+	end
+	end)
+	
+end
+coroutine.wrap(HYTXAYC_fake_script)()

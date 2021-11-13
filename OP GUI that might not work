@@ -100,7 +100,7 @@ local UwUButton = Instance.new("ImageButton")
 
 --Properties:
 
-TheMostOPGUIUWILLEVERRECIEVE.Name = "The Most OP GUI U WILL EVER RECIEVE"
+TheMostOPGUIUWILLEVERRECIEVE.Name = "Lindo"
 TheMostOPGUIUWILLEVERRECIEVE.Parent = game.CoreGui
 TheMostOPGUIUWILLEVERRECIEVE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -113,7 +113,7 @@ WholeFrame.Position = UDim2.new(0.111746028, 0, 0.226872265, 0)
 WholeFrame.Size = UDim2.new(0, 800, 0, 535)
 WholeFrame.Visible = false
 WholeFrame.Active = true
-wholeFrame.Draggable = true
+WholeFrame.Draggable = true
 
 SideMenu.Name = "SideMenu"
 SideMenu.Parent = WholeFrame
@@ -215,6 +215,10 @@ Yield.Font = Enum.Font.Kalam
 Yield.Text = "Infinit Yield"
 Yield.TextColor3 = Color3.fromRGB(0, 255, 255)
 Yield.TextSize = 36.000
+Yield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end)
+
 
 UICorner_6.Parent = Yield
 
@@ -227,6 +231,10 @@ CDM.Font = Enum.Font.Kalam
 CDM.Text = "CDM - X"
 CDM.TextColor3 = Color3.fromRGB(0, 255, 255)
 CDM.TextSize = 36.000
+CDM.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
 
 UICorner_7.Parent = CDM
 
@@ -239,6 +247,13 @@ DanceScript.Font = Enum.Font.Kalam
 DanceScript.Text = "Dance Script"
 DanceScript.TextColor3 = Color3.fromRGB(0, 255, 255)
 DanceScript.TextSize = 36.000
+DanceScript.MouseButton1Down:connect(function()
+	_G.ToggleColor = Color3.fromRGB(255,192,203)
+	_G.ButtonColor = Color3.fromRGB(255,192,203)
+	_G.SliderColor = Color3.fromRGB(255,192,203)
+	loadstring(game:HttpGet("https://pastebin.com/raw/gE31aTaW", true))()
+end)
+
 
 UICorner_8.Parent = DanceScript
 
@@ -251,6 +266,10 @@ DexExplorer.Font = Enum.Font.Kalam
 DexExplorer.Text = "Dex Explorer"
 DexExplorer.TextColor3 = Color3.fromRGB(0, 255, 255)
 DexExplorer.TextSize = 36.000
+DexExplorer.MouseButton1Down:connect(function()
+    	loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4", true))()
+end)
+
 
 UICorner_9.Parent = DexExplorer
 
@@ -272,6 +291,9 @@ AutoAttackOn.Font = Enum.Font.Kalam
 AutoAttackOn.Text = "Auto Attack On"
 AutoAttackOn.TextColor3 = Color3.fromRGB(0, 255, 255)
 AutoAttackOn.TextSize = 36.000
+AutoAttackOn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Auto%20Attack", true))()
+end)
 
 UICorner_10.Parent = AutoAttackOn
 
@@ -284,6 +306,9 @@ PsychicAllOff.Font = Enum.Font.Kalam
 PsychicAllOff.Text = "Psychic All Off"
 PsychicAllOff.TextColor3 = Color3.fromRGB(0, 255, 255)
 PsychicAllOff.TextSize = 36.000
+PsychicAllOff.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20all%20off", true))()
+end)
 
 UICorner_11.Parent = PsychicAllOff
 
@@ -296,6 +321,10 @@ PsychicAllOn.Font = Enum.Font.Kalam
 PsychicAllOn.Text = "Psychic All On"
 PsychicAllOn.TextColor3 = Color3.fromRGB(0, 255, 255)
 PsychicAllOn.TextSize = 36.000
+PsychicAllOn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20all%20on", true))()
+end)
+
 
 UICorner_12.Parent = PsychicAllOn
 
@@ -308,6 +337,10 @@ AutoAttackOff.Font = Enum.Font.Kalam
 AutoAttackOff.Text = "Auto Attack Off"
 AutoAttackOff.TextColor3 = Color3.fromRGB(0, 255, 255)
 AutoAttackOff.TextSize = 36.000
+AutoAttackOff.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Auto%20Attack%20off", true))()
+end)
+
 
 UICorner_13.Parent = AutoAttackOff
 
@@ -320,6 +353,10 @@ PsychicToggle.Font = Enum.Font.Kalam
 PsychicToggle.Text = "Psy Toggle"
 PsychicToggle.TextColor3 = Color3.fromRGB(0, 255, 255)
 PsychicToggle.TextSize = 36.000
+PsychicToggle.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20script%20toggle", true))()
+end)
+
 
 UICorner_14.Parent = PsychicToggle
 
@@ -332,6 +369,10 @@ PsychicToggle_2.Font = Enum.Font.Kalam
 PsychicToggle_2.Text = "God Gui"
 PsychicToggle_2.TextColor3 = Color3.fromRGB(0, 255, 255)
 PsychicToggle_2.TextSize = 36.000
+PsychicToggle_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/GOD%20MODE%20GUI", true))()
+end)
+
 
 UICorner_15.Parent = PsychicToggle_2
 
@@ -344,6 +385,10 @@ CSpam.Font = Enum.Font.Kalam
 CSpam.Text = "C SPAM"
 CSpam.TextColor3 = Color3.fromRGB(0, 255, 255)
 CSpam.TextSize = 36.000
+CSpam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/CSpam"),true))()
+end)
+
 
 UICorner_16.Parent = CSpam
 
@@ -356,6 +401,10 @@ NoRepTaking.Font = Enum.Font.Kalam
 NoRepTaking.Text = "No Rep Taking"
 NoRepTaking.TextColor3 = Color3.fromRGB(0, 255, 255)
 NoRepTaking.TextSize = 36.000
+NoRepTaking.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.NameBbGui.NameTxt: Destroy()
+end)
+
 
 UICorner_17.Parent = NoRepTaking
 
@@ -368,6 +417,10 @@ Void.Font = Enum.Font.Kalam
 Void.Text = "Void"
 Void.TextColor3 = Color3.fromRGB(0, 255, 255)
 Void.TextSize = 36.000
+Void.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", true))()
+end)
+
 
 UICorner_18.Parent = Void
 
@@ -380,6 +433,10 @@ Cbring.Font = Enum.Font.Kalam
 Cbring.Text = "Cbring"
 Cbring.TextColor3 = Color3.fromRGB(0, 255, 255)
 Cbring.TextSize = 36.000
+Cbring.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Cbring"),true))()
+end)
+
 
 UICorner_19.Parent = Cbring
 
@@ -392,6 +449,10 @@ AntiPsychic.Font = Enum.Font.Kalam
 AntiPsychic.Text = "AntiPsychic"
 AntiPsychic.TextColor3 = Color3.fromRGB(0, 255, 255)
 AntiPsychic.TextSize = 36.000
+AntiPsychic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Anti%20Psychic", true))()
+end)
+
 
 UICorner_20.Parent = AntiPsychic
 
@@ -404,6 +465,10 @@ Respawn.Font = Enum.Font.Kalam
 Respawn.Text = "Auto Respawn"
 Respawn.TextColor3 = Color3.fromRGB(0, 255, 255)
 Respawn.TextSize = 36.000
+Respawn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OpRespawn2"),true))()
+end)
+
 
 UICorner_21.Parent = Respawn
 
@@ -416,6 +481,18 @@ RemoveShield.Font = Enum.Font.Kalam
 RemoveShield.Text = "Shield Remove"
 RemoveShield.TextColor3 = Color3.fromRGB(0, 255, 255)
 RemoveShield.TextSize = 36.000
+RemoveShield.MouseButton1Down:connect(function()
+	_G.Toggle = true
+	while _G.Toggle do
+		wait()
+		for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if v.Name == "ForceField" then
+				v:Destroy()
+			end
+		end
+	end
+end)
+
 
 UICorner_22.Parent = RemoveShield
 
@@ -437,6 +514,10 @@ DestroyGui.Font = Enum.Font.Kalam
 DestroyGui.Text = "Destroy Gui"
 DestroyGui.TextColor3 = Color3.fromRGB(0, 255, 255)
 DestroyGui.TextSize = 36.000
+DestroyGui.MouseButton1Down:connect(function()
+    script.Parent.Parent.WholeFrame.Delete()
+    script.Parent.Parent.Open.Delete()
+end)
 
 UICorner_23.Parent = DestroyGui
 
@@ -516,6 +597,9 @@ TopBridge.Font = Enum.Font.Kalam
 TopBridge.Text = "Top Bridge (Best Cbring Spot)"
 TopBridge.TextColor3 = Color3.fromRGB(0, 255, 255)
 TopBridge.TextSize = 36.000
+Sun.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-150,408,58)
+end)
 
 UICorner_28.Parent = TopBridge
 
@@ -528,6 +612,10 @@ Sun.Font = Enum.Font.Kalam
 Sun.Text = "Sun"
 Sun.TextColor3 = Color3.fromRGB(0, 255, 255)
 Sun.TextSize = 36.000
+Sun.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+end)
+
 
 UICorner_29.Parent = Sun
 
@@ -540,6 +628,10 @@ BT.Font = Enum.Font.Kalam
 BT.Text = "BT"
 BT.TextColor3 = Color3.fromRGB(0, 255, 255)
 BT.TextSize = 36.000
+BT.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+end)
+
 
 UICorner_30.Parent = BT
 
@@ -552,6 +644,10 @@ Zen.Font = Enum.Font.Kalam
 Zen.Text = "Zen"
 Zen.TextColor3 = Color3.fromRGB(0, 255, 255)
 Zen.TextSize = 36.000
+Zen.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+end)
+
 
 UICorner_31.Parent = Zen
 
@@ -564,6 +660,10 @@ Port.Font = Enum.Font.Kalam
 Port.Text = "City Port"
 Port.TextColor3 = Color3.fromRGB(0, 255, 255)
 Port.TextSize = 36.000
+Port.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(353,249,-454)
+end)
+
 
 UICorner_32.Parent = Port
 
@@ -576,6 +676,10 @@ Spawn.Font = Enum.Font.Kalam
 Spawn.Text = "Spawn"
 Spawn.TextColor3 = Color3.fromRGB(0, 255, 255)
 Spawn.TextSize = 36.000
+Spawn.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(343,249,852)
+end)
+
 
 UICorner_33.Parent = Spawn
 
@@ -588,6 +692,10 @@ Sun_2.Font = Enum.Font.Kalam
 Sun_2.Text = "LeaderBoards"
 Sun_2.TextColor3 = Color3.fromRGB(0, 255, 255)
 Sun_2.TextSize = 36.000
+Sun_2.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-770,249,750)
+end)
+
 
 UICorner_34.Parent = Sun_2
 
@@ -600,6 +708,10 @@ Sun_3.Font = Enum.Font.Kalam
 Sun_3.Text = "Far Away (Helps get away from psychic)"
 Sun_3.TextColor3 = Color3.fromRGB(0, 255, 255)
 Sun_3.TextSize = 36.000
+Sun_3.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999,9999,9999)
+end)
+
 
 UICorner_35.Parent = Sun_3
 
@@ -621,6 +733,10 @@ Split.Font = Enum.Font.Kalam
 Split.Text = "TP SPLIT"
 Split.TextColor3 = Color3.fromRGB(0, 255, 255)
 Split.TextSize = 36.000
+Split.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20Split", true))()
+end)
+
 
 UICorner_36.Parent = Split
 
@@ -633,6 +749,10 @@ Hub.Font = Enum.Font.Kalam
 Hub.Text = "Black Hub"
 Hub.TextColor3 = Color3.fromRGB(0, 255, 255)
 Hub.TextSize = 36.000
+Hub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20BLACKHUB", true))()
+end)
+
 
 UICorner_37.Parent = Hub
 
@@ -645,6 +765,10 @@ Stats.Font = Enum.Font.Kalam
 Stats.Text = "Stats Checker"
 Stats.TextColor3 = Color3.fromRGB(0, 255, 255)
 Stats.TextSize = 36.000
+Stats.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Multi_checker_SPTS.lua", true))()
+end)
+
 
 UICorner_38.Parent = Stats
 
@@ -657,6 +781,16 @@ SpamSun.Font = Enum.Font.Kalam
 SpamSun.Text = "TP Spam Sun"
 SpamSun.TextColor3 = Color3.fromRGB(0, 255, 255)
 SpamSun.TextSize = 36.000
+SpamSun.MouseButton1Click:Connect(function()
+    I = 1 
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+    end
+end)
+
+
+
 
 UICorner_39.Parent = SpamSun
 
@@ -666,9 +800,18 @@ SpamBt.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 SpamBt.Position = UDim2.new(0, 43, 0, 313)
 SpamBt.Size = UDim2.new(0, 453, 0, 55)
 SpamBt.Font = Enum.Font.Kalam
-SpamBt.Text = "TP Spam Bt"
+SpamBt.Text = "Remove any Spam TP :)"
 SpamBt.TextColor3 = Color3.fromRGB(0, 255, 255)
 SpamBt.TextSize = 36.000
+SpamBt.MouseButton1Down:connect(function()
+	I = 0
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+    end
+end)
+
 
 UICorner_40.Parent = SpamBt
 
@@ -681,6 +824,14 @@ SpamZen.Font = Enum.Font.Kalam
 SpamZen.Text = "TP Spam Zen"
 SpamZen.TextColor3 = Color3.fromRGB(0, 255, 255)
 SpamZen.TextSize = 36.000
+SpamZen.MouseButton1Down:connect(function()
+	I = 1
+    while I == 1 do
+        wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+    end
+end)
+
 
 UICorner_41.Parent = SpamZen
 
@@ -689,12 +840,14 @@ Open.Parent = TheMostOPGUIUWILLEVERRECIEVE
 Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Open.Position = UDim2.new(0.00698412675, 0, 0.710352421, 0)
 Open.Size = UDim2.new(0, 88, 0, 83)
+Open.Visible = true
 
 UwUButton.Name = "UwUButton"
 UwUButton.Parent = Open
 UwUButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 UwUButton.Size = UDim2.new(0, 88, 0, 83)
 UwUButton.Image = "rbxassetid://7835675117"
+UwUButton.Visible = true
 
 -- Scripts:
 

@@ -597,8 +597,8 @@ TopBridge.Font = Enum.Font.Kalam
 TopBridge.Text = "Top Bridge (Best Cbring Spot)"
 TopBridge.TextColor3 = Color3.fromRGB(0, 255, 255)
 TopBridge.TextSize = 36.000
-Sun.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-150,408,58)
+TopBridge.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
 end)
 
 UICorner_28.Parent = TopBridge
@@ -613,7 +613,7 @@ Sun.Text = "Sun"
 Sun.TextColor3 = Color3.fromRGB(0, 255, 255)
 Sun.TextSize = 36.000
 Sun.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-150,408,58)
 end)
 
 

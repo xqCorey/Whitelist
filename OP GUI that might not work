@@ -354,7 +354,7 @@ PsychicToggle.Text = "Psy Toggle"
 PsychicToggle.TextColor3 = Color3.fromRGB(0, 255, 255)
 PsychicToggle.TextSize = 36.000
 PsychicToggle.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20script%20toggle", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20Toggle%20better", true))()
 end)
 
 

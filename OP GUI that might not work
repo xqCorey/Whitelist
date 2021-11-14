@@ -709,7 +709,7 @@ Sun_3.Text = "Far Away (Helps get away from psychic)"
 Sun_3.TextColor3 = Color3.fromRGB(0, 255, 255)
 Sun_3.TextSize = 36.000
 Sun_3.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999,9999,9999)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99999,99999,99999)
 end)
 
 

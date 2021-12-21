@@ -54,64 +54,68 @@ local Credit = Instance.new("TextLabel")
 local SubLabel = Instance.new("TextLabel")
 local SubLabel2 = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
+local AutoSpamF = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Name = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
 local Training = Instance.new("Frame")
 local TrainingLabel = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
-local UICorner_21 = Instance.new("UICorner")
-local BlackHub = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local Split = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
-local Stats = Instance.new("TextButton")
+local BlackHub = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
+local Split = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Stats = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
 local SunTp = Instance.new("TextLabel")
 local SpamTpSun = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local BtTp = Instance.new("TextLabel")
 local SpamTpBt = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local ZenTp = Instance.new("TextLabel")
 local SpamTpZen = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Teleports = Instance.new("Frame")
 local TeleportsLabel = Instance.new("TextLabel")
-local UICorner_28 = Instance.new("UICorner")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local UniversalSettings = Instance.new("Frame")
 local UniversalSettingsLabel = Instance.new("TextLabel")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local Setting1 = Instance.new("TextLabel")
 local GuiGlow = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local Setting2 = Instance.new("TextLabel")
 local RedGui = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
 local Setting3 = Instance.new("TextLabel")
 local Purple = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_36 = Instance.new("UICorner")
 local Setting4 = Instance.new("TextLabel")
 local Orange = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local Setting5 = Instance.new("TextLabel")
 local Yellow = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local Setting6 = Instance.new("TextLabel")
 local Pink = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local CDM = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
 local UICorner_39 = Instance.new("UICorner")
-local SecretServerCrasher = Instance.new("Frame")
+local CDM = Instance.new("TextButton")
 local UICorner_40 = Instance.new("UICorner")
-local PvPLabel_2 = Instance.new("TextLabel")
 local UICorner_41 = Instance.new("UICorner")
-local Zoom = Instance.new("TextButton")
+local SecretServerCrasher = Instance.new("Frame")
 local UICorner_42 = Instance.new("UICorner")
-local ServerCrasher = Instance.new("TextButton")
+local PvPLabel_2 = Instance.new("TextLabel")
 local UICorner_43 = Instance.new("UICorner")
-local OpenGui = Instance.new("TextButton")
+local Zoom = Instance.new("TextButton")
 local UICorner_44 = Instance.new("UICorner")
+local ServerCrasher = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local OpenGui = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
 
 --Properties:
 
@@ -129,6 +133,8 @@ Glow.Size = UDim2.new(0.465392381, 0, 0.713876665, 0)
 Glow.Image = "rbxassetid://5028857084"
 Glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
 Glow.ImageTransparency = 1.000
+Glow.Active = true
+Glow.Draggable = true
 
 BackgroundFrame.Name = "BackgroundFrame"
 BackgroundFrame.Parent = Glow
@@ -137,8 +143,6 @@ BackgroundFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
 BackgroundFrame.BorderSizePixel = 0
 BackgroundFrame.Position = UDim2.new(0.0522774942, 0, 0.0531991199, 0)
 BackgroundFrame.Size = UDim2.new(0, 802, 0, 576)
-BackgroundFrame.Active = true
-BackgroundFrame.Draggable = true
 
 WelcomeFrame.Name = "WelcomeFrame"
 WelcomeFrame.Parent = BackgroundFrame
@@ -422,7 +426,7 @@ AntiPsychic.Name = "AntiPsychic"
 AntiPsychic.Parent = PvP
 AntiPsychic.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 AntiPsychic.Position = UDim2.new(0.0813397691, 0, 0.532122552, 0)
-AntiPsychic.Size = UDim2.new(0, 226, 0, 63)
+AntiPsychic.Size = UDim2.new(0, 164, 0, 63)
 AntiPsychic.Font = Enum.Font.SourceSans
 AntiPsychic.Text = "Anti Psychic"
 AntiPsychic.TextColor3 = Color3.fromRGB(0, 255, 255)
@@ -435,8 +439,8 @@ UICorner_15.Parent = AntiPsychic
 Void.Name = "Void"
 Void.Parent = PvP
 Void.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
-Void.Position = UDim2.new(0.514968097, 0, 0.532122552, 0)
-Void.Size = UDim2.new(0, 237, 0, 63)
+Void.Position = UDim2.new(0.630952299, 0, 0.532122552, 0)
+Void.Size = UDim2.new(0, 171, 0, 63)
 Void.Font = Enum.Font.SourceSans
 Void.Text = "Void"
 Void.TextColor3 = Color3.fromRGB(0, 255, 255)
@@ -510,6 +514,34 @@ SubLabel2.TextSize = 17.000
 
 UICorner_19.Parent = PvP
 
+AutoSpamF.Name = "AutoSpamF"
+AutoSpamF.Parent = PvP
+AutoSpamF.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AutoSpamF.Position = UDim2.new(0.399923831, 0, 0.610582173, 0)
+AutoSpamF.Size = UDim2.new(0, 113, 0, 54)
+AutoSpamF.Font = Enum.Font.SourceSans
+AutoSpamF.Text = "F Aimbot"
+AutoSpamF.TextColor3 = Color3.fromRGB(0, 255, 255)
+AutoSpamF.TextSize = 18.000
+AutoSpamF.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+AutoSpamF.TextStrokeTransparency = 0.000
+
+UICorner_20.Parent = AutoSpamF
+
+Name.Name = "Name"
+Name.Parent = AutoSpamF
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.Position = UDim2.new(0, 0, -0.838247836, 0)
+Name.Size = UDim2.new(0, 114, 0, 35)
+Name.Font = Enum.Font.SourceSans
+Name.Text = ""
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+UICorner_21.Parent = Name
+
 Training.Name = "Training"
 Training.Parent = BackgroundFrame
 Training.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
@@ -532,9 +564,9 @@ TrainingLabel.TextSize = 27.000
 TrainingLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 TrainingLabel.TextStrokeTransparency = 0.000
 
-UICorner_20.Parent = TrainingLabel
+UICorner_22.Parent = TrainingLabel
 
-UICorner_21.Parent = Training
+UICorner_23.Parent = Training
 
 BlackHub.Name = "BlackHub"
 BlackHub.Parent = Training
@@ -548,7 +580,7 @@ BlackHub.TextSize = 18.000
 BlackHub.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 BlackHub.TextStrokeTransparency = 0.000
 
-UICorner_22.Parent = BlackHub
+UICorner_24.Parent = BlackHub
 
 Split.Name = "Split"
 Split.Parent = Training
@@ -562,7 +594,7 @@ Split.TextSize = 18.000
 Split.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Split.TextStrokeTransparency = 0.000
 
-UICorner_23.Parent = Split
+UICorner_25.Parent = Split
 
 Stats.Name = "Stats"
 Stats.Parent = Training
@@ -576,7 +608,7 @@ Stats.TextSize = 18.000
 Stats.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Stats.TextStrokeTransparency = 0.000
 
-UICorner_24.Parent = Stats
+UICorner_26.Parent = Stats
 
 SunTp.Name = "SunTp"
 SunTp.Parent = Training
@@ -603,7 +635,7 @@ SpamTpSun.TextSize = 18.000
 SpamTpSun.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 SpamTpSun.TextStrokeTransparency = 0.000
 
-UICorner_25.Parent = SpamTpSun
+UICorner_27.Parent = SpamTpSun
 
 BtTp.Name = "BtTp"
 BtTp.Parent = Training
@@ -630,7 +662,7 @@ SpamTpBt.TextSize = 18.000
 SpamTpBt.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 SpamTpBt.TextStrokeTransparency = 0.000
 
-UICorner_26.Parent = SpamTpBt
+UICorner_28.Parent = SpamTpBt
 
 ZenTp.Name = "ZenTp"
 ZenTp.Parent = Training
@@ -657,7 +689,7 @@ SpamTpZen.TextSize = 18.000
 SpamTpZen.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 SpamTpZen.TextStrokeTransparency = 0.000
 
-UICorner_27.Parent = SpamTpZen
+UICorner_29.Parent = SpamTpZen
 
 Teleports.Name = "Teleports"
 Teleports.Parent = BackgroundFrame
@@ -681,9 +713,9 @@ TeleportsLabel.TextSize = 27.000
 TeleportsLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 TeleportsLabel.TextStrokeTransparency = 0.000
 
-UICorner_28.Parent = TeleportsLabel
+UICorner_30.Parent = TeleportsLabel
 
-UICorner_29.Parent = Teleports
+UICorner_31.Parent = Teleports
 
 UniversalSettings.Name = "UniversalSettings"
 UniversalSettings.Parent = BackgroundFrame
@@ -707,7 +739,7 @@ UniversalSettingsLabel.TextSize = 27.000
 UniversalSettingsLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 UniversalSettingsLabel.TextStrokeTransparency = 0.000
 
-UICorner_30.Parent = UniversalSettingsLabel
+UICorner_32.Parent = UniversalSettingsLabel
 
 Setting1.Name = "Setting1"
 Setting1.Parent = UniversalSettings
@@ -734,7 +766,7 @@ GuiGlow.TextSize = 18.000
 GuiGlow.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 GuiGlow.TextStrokeTransparency = 0.000
 
-UICorner_31.Parent = GuiGlow
+UICorner_33.Parent = GuiGlow
 
 Setting2.Name = "Setting2"
 Setting2.Parent = UniversalSettings
@@ -760,9 +792,9 @@ RedGui.TextSize = 18.000
 RedGui.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 RedGui.TextStrokeTransparency = 0.000
 
-UICorner_32.Parent = RedGui
+UICorner_34.Parent = RedGui
 
-UICorner_33.Parent = UniversalSettings
+UICorner_35.Parent = UniversalSettings
 
 Setting3.Name = "Setting3"
 Setting3.Parent = UniversalSettings
@@ -788,7 +820,7 @@ Purple.TextSize = 18.000
 Purple.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Purple.TextStrokeTransparency = 0.000
 
-UICorner_34.Parent = Purple
+UICorner_36.Parent = Purple
 
 Setting4.Name = "Setting4"
 Setting4.Parent = UniversalSettings
@@ -814,7 +846,7 @@ Orange.TextSize = 18.000
 Orange.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Orange.TextStrokeTransparency = 0.000
 
-UICorner_35.Parent = Orange
+UICorner_37.Parent = Orange
 
 Setting5.Name = "Setting5"
 Setting5.Parent = UniversalSettings
@@ -840,7 +872,7 @@ Yellow.TextSize = 18.000
 Yellow.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Yellow.TextStrokeTransparency = 0.000
 
-UICorner_36.Parent = Yellow
+UICorner_38.Parent = Yellow
 
 Setting6.Name = "Setting6"
 Setting6.Parent = UniversalSettings
@@ -866,7 +898,7 @@ Pink.TextSize = 18.000
 Pink.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Pink.TextStrokeTransparency = 0.000
 
-UICorner_37.Parent = Pink
+UICorner_39.Parent = Pink
 
 CDM.Name = "CDM"
 CDM.Parent = UniversalSettings
@@ -880,9 +912,9 @@ CDM.TextSize = 18.000
 CDM.TextStrokeColor3 = Color3.fromRGB(255, 255, 0)
 CDM.TextStrokeTransparency = 0.000
 
-UICorner_38.Parent = CDM
+UICorner_40.Parent = CDM
 
-UICorner_39.Parent = BackgroundFrame
+UICorner_41.Parent = BackgroundFrame
 
 SecretServerCrasher.Name = "SecretServerCrasher"
 SecretServerCrasher.Parent = BackgroundFrame
@@ -891,7 +923,7 @@ SecretServerCrasher.Position = UDim2.new(0.298004985, 0, 0, 0)
 SecretServerCrasher.Size = UDim2.new(0, 563, 0, 576)
 SecretServerCrasher.Visible = false
 
-UICorner_40.Parent = SecretServerCrasher
+UICorner_42.Parent = SecretServerCrasher
 
 PvPLabel_2.Name = "PvPLabel"
 PvPLabel_2.Parent = SecretServerCrasher
@@ -907,7 +939,7 @@ PvPLabel_2.TextSize = 27.000
 PvPLabel_2.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 PvPLabel_2.TextStrokeTransparency = 0.000
 
-UICorner_41.Parent = PvPLabel_2
+UICorner_43.Parent = PvPLabel_2
 
 Zoom.Name = "Zoom"
 Zoom.Parent = SecretServerCrasher
@@ -921,7 +953,7 @@ Zoom.TextSize = 18.000
 Zoom.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 Zoom.TextStrokeTransparency = 0.000
 
-UICorner_42.Parent = Zoom
+UICorner_44.Parent = Zoom
 
 ServerCrasher.Name = "ServerCrasher"
 ServerCrasher.Parent = SecretServerCrasher
@@ -935,7 +967,7 @@ ServerCrasher.TextSize = 45.000
 ServerCrasher.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
 ServerCrasher.TextStrokeTransparency = 0.000
 
-UICorner_43.Parent = ServerCrasher
+UICorner_45.Parent = ServerCrasher
 
 OpenGui.Name = "OpenGui"
 OpenGui.Parent = CoreysGUI
@@ -948,16 +980,17 @@ OpenGui.Text = "OPEN"
 OpenGui.TextColor3 = Color3.fromRGB(0, 255, 255)
 OpenGui.TextSize = 22.000
 
-UICorner_44.Parent = OpenGui
+UICorner_46.Parent = OpenGui
 
 -- Scripts:
 
-local function EVFKBJP_fake_script() -- OpenButton.LocalScript 
+local function IHFWTM_fake_script() -- OpenButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenButton)
 
 	local frame = script.Parent.Parent.Parent.WelcomeFrame-- change “Frame” to the name of the frame
 	local frame2 = script.Parent.Parent.Parent.Parent.Parent.OpenGui
 	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Glow
 	local open = false
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -965,14 +998,15 @@ local function EVFKBJP_fake_script() -- OpenButton.LocalScript
 			wait()
 			frame.Visible = false
 			background.BackgroundTransparency = 1
+			glow.Visible = false
 			wait()
 			frame2.Visible = true
 			
 		end
 	end)
 end
-coroutine.wrap(EVFKBJP_fake_script)()
-local function YDVFW_fake_script() -- WelcomeFrame.LocalScript 
+coroutine.wrap(IHFWTM_fake_script)()
+local function VXYBG_fake_script() -- WelcomeFrame.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeFrame)
 
 	local frame = script.Parent
@@ -987,8 +1021,8 @@ local function YDVFW_fake_script() -- WelcomeFrame.LocalScript
 	frame.PlayerImage.Image = content -- change the name of these acording
 	frame.PlayerName.Text = player.Name-- this aswell
 end
-coroutine.wrap(YDVFW_fake_script)()
-local function OUOS_fake_script() -- PvPButton.LocalScript 
+coroutine.wrap(VXYBG_fake_script)()
+local function PDOVJYB_fake_script() -- PvPButton.LocalScript 
 	local script = Instance.new('LocalScript', PvPButton)
 
 	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
@@ -1014,8 +1048,8 @@ local function OUOS_fake_script() -- PvPButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OUOS_fake_script)()
-local function EDJKO_fake_script() -- TrainingButton.LocalScript 
+coroutine.wrap(PDOVJYB_fake_script)()
+local function FISS_fake_script() -- TrainingButton.LocalScript 
 	local script = Instance.new('LocalScript', TrainingButton)
 
 	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
@@ -1048,8 +1082,8 @@ local function EDJKO_fake_script() -- TrainingButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EDJKO_fake_script)()
-local function BIKPR_fake_script() -- TeleportsButton.LocalScript 
+coroutine.wrap(FISS_fake_script)()
+local function NBGQ_fake_script() -- TeleportsButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportsButton)
 
 	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
@@ -1082,8 +1116,8 @@ local function BIKPR_fake_script() -- TeleportsButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BIKPR_fake_script)()
-local function WHNQ_fake_script() -- UniversalSettingsButton.LocalScript 
+coroutine.wrap(NBGQ_fake_script)()
+local function UVPB_fake_script() -- UniversalSettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', UniversalSettingsButton)
 
 	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
@@ -1116,8 +1150,8 @@ local function WHNQ_fake_script() -- UniversalSettingsButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WHNQ_fake_script)()
-local function YUXB_fake_script() -- MenuFrame.LocalScript 
+coroutine.wrap(UVPB_fake_script)()
+local function TTCC_fake_script() -- MenuFrame.LocalScript 
 	local script = Instance.new('LocalScript', MenuFrame)
 
 	local frame = script.Parent
@@ -1133,8 +1167,8 @@ local function YUXB_fake_script() -- MenuFrame.LocalScript
 	frame.PlayerName2.Text = player.Name-- this aswell
 	
 end
-coroutine.wrap(YUXB_fake_script)()
-local function UVQXRXE_fake_script() -- Maximise.LocalScript 
+coroutine.wrap(TTCC_fake_script)()
+local function QCYJY_fake_script() -- Maximise.LocalScript 
 	local script = Instance.new('LocalScript', Maximise)
 
 	local PvP = script.Parent.Parent.Parent.PvP
@@ -1218,8 +1252,8 @@ local function UVQXRXE_fake_script() -- Maximise.LocalScript
 	
 	
 end
-coroutine.wrap(UVQXRXE_fake_script)()
-local function QWIU_fake_script() -- Secret.LocalScript 
+coroutine.wrap(QCYJY_fake_script)()
+local function TSQNT_fake_script() -- Secret.LocalScript 
 	local script = Instance.new('LocalScript', Secret)
 
 	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
@@ -1245,8 +1279,8 @@ local function QWIU_fake_script() -- Secret.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QWIU_fake_script)()
-local function LRMDND_fake_script() -- AutoAttack.LocalScript 
+coroutine.wrap(TSQNT_fake_script)()
+local function JQBR_fake_script() -- AutoAttack.LocalScript 
 	local script = Instance.new('LocalScript', AutoAttack)
 
 	local button = script.Parent
@@ -1271,8 +1305,8 @@ local function LRMDND_fake_script() -- AutoAttack.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LRMDND_fake_script)()
-local function UOHFC_fake_script() -- PsychicAll.LocalScript 
+coroutine.wrap(JQBR_fake_script)()
+local function WBOWHSX_fake_script() -- PsychicAll.LocalScript 
 	local script = Instance.new('LocalScript', PsychicAll)
 
 	local button = script.Parent
@@ -1297,8 +1331,8 @@ local function UOHFC_fake_script() -- PsychicAll.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UOHFC_fake_script)()
-local function LWXURBU_fake_script() -- Cspam.LocalScript 
+coroutine.wrap(WBOWHSX_fake_script)()
+local function YWOY_fake_script() -- Cspam.LocalScript 
 	local script = Instance.new('LocalScript', Cspam)
 
 	local button = script.Parent
@@ -1323,8 +1357,8 @@ local function LWXURBU_fake_script() -- Cspam.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LWXURBU_fake_script)()
-local function OIGMXQV_fake_script() -- NoRep.LocalScript 
+coroutine.wrap(YWOY_fake_script)()
+local function GPBB_fake_script() -- NoRep.LocalScript 
 	local script = Instance.new('LocalScript', NoRep)
 
 	local button = script.Parent
@@ -1333,8 +1367,8 @@ local function OIGMXQV_fake_script() -- NoRep.LocalScript
 		game.Players.LocalPlayer.Character.Head.NameBbGui.NameTxt: Destroy()
 	end)
 end
-coroutine.wrap(OIGMXQV_fake_script)()
-local function CCJLYPW_fake_script() -- GodGui.LocalScript 
+coroutine.wrap(GPBB_fake_script)()
+local function TAONEO_fake_script() -- GodGui.LocalScript 
 	local script = Instance.new('LocalScript', GodGui)
 
 	local button = script.Parent
@@ -1343,8 +1377,8 @@ local function CCJLYPW_fake_script() -- GodGui.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/GOD%20MODE%20GUI", true))()
 	end)
 end
-coroutine.wrap(CCJLYPW_fake_script)()
-local function MFPVI_fake_script() -- Cbring.LocalScript 
+coroutine.wrap(TAONEO_fake_script)()
+local function LBKFH_fake_script() -- Cbring.LocalScript 
 	local script = Instance.new('LocalScript', Cbring)
 
 	local button = script.Parent
@@ -1353,8 +1387,8 @@ local function MFPVI_fake_script() -- Cbring.LocalScript
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Cbring"),true))()
 	end)
 end
-coroutine.wrap(MFPVI_fake_script)()
-local function WFTA_fake_script() -- AntiPsychic.LocalScript 
+coroutine.wrap(LBKFH_fake_script)()
+local function HOCBIF_fake_script() -- AntiPsychic.LocalScript 
 	local script = Instance.new('LocalScript', AntiPsychic)
 
 	local button = script.Parent
@@ -1363,8 +1397,8 @@ local function WFTA_fake_script() -- AntiPsychic.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Anti%20Psychic", true))()
 	end)
 end
-coroutine.wrap(WFTA_fake_script)()
-local function VLQI_fake_script() -- Void.LocalScript 
+coroutine.wrap(HOCBIF_fake_script)()
+local function VGWHE_fake_script() -- Void.LocalScript 
 	local script = Instance.new('LocalScript', Void)
 
 	local button = script.Parent
@@ -1373,8 +1407,8 @@ local function VLQI_fake_script() -- Void.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", true))()
 	end)
 end
-coroutine.wrap(VLQI_fake_script)()
-local function PGJAZNA_fake_script() -- ShieldRemove.LocalScript 
+coroutine.wrap(VGWHE_fake_script)()
+local function ALQVULA_fake_script() -- ShieldRemove.LocalScript 
 	local script = Instance.new('LocalScript', ShieldRemove)
 
 	local button = script.Parent
@@ -1391,8 +1425,8 @@ local function PGJAZNA_fake_script() -- ShieldRemove.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PGJAZNA_fake_script)()
-local function CYQVC_fake_script() -- AutoRespawn.LocalScript 
+coroutine.wrap(ALQVULA_fake_script)()
+local function CURC_fake_script() -- AutoRespawn.LocalScript 
 	local script = Instance.new('LocalScript', AutoRespawn)
 
 	local button = script.Parent
@@ -1401,8 +1435,63 @@ local function CYQVC_fake_script() -- AutoRespawn.LocalScript
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OpRespawn2"),true))()
 	end)
 end
-coroutine.wrap(CYQVC_fake_script)()
-local function LRGJK_fake_script() -- BlackHub.LocalScript 
+coroutine.wrap(CURC_fake_script)()
+local function MKAJ_fake_script() -- AutoSpamF.LocalScript 
+	local script = Instance.new('LocalScript', AutoSpamF)
+
+	local button = script.Parent
+	local Main = script.Parent.Parent.Name
+	local Target = ""
+	
+	Target = Main.Text
+	
+	button.MouseButton1Click:Connect(function()
+		_G.on = true
+		while _G.on == true do 
+			wait()
+			local Name = game.Players[Target].Character.HumanoidRootPart
+	
+			local function wow()
+				local Remote = game.ReplicatedStorage['RemoteEvent']
+				local Arguments = {
+					[1] = {
+						[1] = "Skill_Punch",
+						[2] = "Left"
+					}
+				}
+	
+				Remote:FireServer(unpack(Arguments))
+				wait()
+				local Remote = game.ReplicatedStorage['RemoteEvent']
+	
+				local Arguments = {
+					[1] = {
+						[1] = "Skill_BulletPunch",
+						[2] = "Right",
+						[3] = Name.position
+					}
+				}
+	
+				Remote:FireServer(unpack(Arguments))
+				wait()
+				local Remote = game.ReplicatedStorage['RemoteEvent']
+	
+				local Arguments = {
+					[1] = {
+						[1] = "Skill_BulletPunch",
+						[2] = "Left",
+						[3] = Name.position
+					}
+				}
+	
+				Remote:FireServer(unpack(Arguments))
+			end 
+			delay(0, wow)
+		end 
+	end)
+end
+coroutine.wrap(MKAJ_fake_script)()
+local function NWYNDR_fake_script() -- BlackHub.LocalScript 
 	local script = Instance.new('LocalScript', BlackHub)
 
 	local button = script.Parent
@@ -1411,8 +1500,8 @@ local function LRGJK_fake_script() -- BlackHub.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20BLACKHUB", true))()
 	end)
 end
-coroutine.wrap(LRGJK_fake_script)()
-local function AXFDWD_fake_script() -- Split.LocalScript 
+coroutine.wrap(NWYNDR_fake_script)()
+local function KUGL_fake_script() -- Split.LocalScript 
 	local script = Instance.new('LocalScript', Split)
 
 	local button = script.Parent
@@ -1421,8 +1510,8 @@ local function AXFDWD_fake_script() -- Split.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20Split", true))()
 	end)
 end
-coroutine.wrap(AXFDWD_fake_script)()
-local function OACWXXC_fake_script() -- Stats.LocalScript 
+coroutine.wrap(KUGL_fake_script)()
+local function BSQDASW_fake_script() -- Stats.LocalScript 
 	local script = Instance.new('LocalScript', Stats)
 
 	local button = script.Parent
@@ -1431,8 +1520,8 @@ local function OACWXXC_fake_script() -- Stats.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Multi_checker_SPTS.lua", true))()
 	end)
 end
-coroutine.wrap(OACWXXC_fake_script)()
-local function CIRV_fake_script() -- SpamTpSun.LocalScript 
+coroutine.wrap(BSQDASW_fake_script)()
+local function GLBUI_fake_script() -- SpamTpSun.LocalScript 
 	local script = Instance.new('LocalScript', SpamTpSun)
 
 	local button = script.Parent
@@ -1465,8 +1554,8 @@ local function CIRV_fake_script() -- SpamTpSun.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CIRV_fake_script)()
-local function KYNNO_fake_script() -- SpamTpBt.LocalScript 
+coroutine.wrap(GLBUI_fake_script)()
+local function MSZIWA_fake_script() -- SpamTpBt.LocalScript 
 	local script = Instance.new('LocalScript', SpamTpBt)
 
 	local button = script.Parent
@@ -1499,8 +1588,8 @@ local function KYNNO_fake_script() -- SpamTpBt.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KYNNO_fake_script)()
-local function KQSUQ_fake_script() -- SpamTpZen.LocalScript 
+coroutine.wrap(MSZIWA_fake_script)()
+local function BWXXQ_fake_script() -- SpamTpZen.LocalScript 
 	local script = Instance.new('LocalScript', SpamTpZen)
 
 	local button = script.Parent
@@ -1533,8 +1622,8 @@ local function KQSUQ_fake_script() -- SpamTpZen.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KQSUQ_fake_script)()
-local function ODPYK_fake_script() -- GuiGlow.LocalScript 
+coroutine.wrap(BWXXQ_fake_script)()
+local function MJIWZ_fake_script() -- GuiGlow.LocalScript 
 	local script = Instance.new('LocalScript', GuiGlow)
 
 	local button = script.Parent
@@ -1560,8 +1649,8 @@ local function ODPYK_fake_script() -- GuiGlow.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ODPYK_fake_script)()
-local function VYABOVY_fake_script() -- RedGui.RedScript 
+coroutine.wrap(MJIWZ_fake_script)()
+local function SZCEZGL_fake_script() -- RedGui.RedScript 
 	local script = Instance.new('LocalScript', RedGui)
 
 	local button = script.Parent
@@ -1713,8 +1802,8 @@ local function VYABOVY_fake_script() -- RedGui.RedScript
 		end
 	end)
 end
-coroutine.wrap(VYABOVY_fake_script)()
-local function VTVSIL_fake_script() -- Purple.PurpleScript 
+coroutine.wrap(SZCEZGL_fake_script)()
+local function JMIEURM_fake_script() -- Purple.PurpleScript 
 	local script = Instance.new('LocalScript', Purple)
 
 	local button = script.Parent
@@ -1867,8 +1956,8 @@ local function VTVSIL_fake_script() -- Purple.PurpleScript
 		end
 	end)
 end
-coroutine.wrap(VTVSIL_fake_script)()
-local function JNDOY_fake_script() -- Orange.OrangeScript 
+coroutine.wrap(JMIEURM_fake_script)()
+local function GQAMQAB_fake_script() -- Orange.OrangeScript 
 	local script = Instance.new('LocalScript', Orange)
 
 	local button = script.Parent
@@ -2021,8 +2110,8 @@ local function JNDOY_fake_script() -- Orange.OrangeScript
 		end
 	end)
 end
-coroutine.wrap(JNDOY_fake_script)()
-local function HSNMHY_fake_script() -- Yellow.YellowScript 
+coroutine.wrap(GQAMQAB_fake_script)()
+local function IMRMU_fake_script() -- Yellow.YellowScript 
 	local script = Instance.new('LocalScript', Yellow)
 
 	local button = script.Parent
@@ -2175,8 +2264,8 @@ local function HSNMHY_fake_script() -- Yellow.YellowScript
 		end
 	end)
 end
-coroutine.wrap(HSNMHY_fake_script)()
-local function OTDCHHD_fake_script() -- Pink.PinkScript 
+coroutine.wrap(IMRMU_fake_script)()
+local function PZHRXO_fake_script() -- Pink.PinkScript 
 	local script = Instance.new('LocalScript', Pink)
 
 	local button = script.Parent
@@ -2329,8 +2418,8 @@ local function OTDCHHD_fake_script() -- Pink.PinkScript
 		end
 	end)
 end
-coroutine.wrap(OTDCHHD_fake_script)()
-local function DTRYZQB_fake_script() -- CDM.LocalScript 
+coroutine.wrap(PZHRXO_fake_script)()
+local function NRTBBGF_fake_script() -- CDM.LocalScript 
 	local script = Instance.new('LocalScript', CDM)
 
 	local button = script.Parent
@@ -2340,8 +2429,8 @@ local function DTRYZQB_fake_script() -- CDM.LocalScript
 	end)
 	
 end
-coroutine.wrap(DTRYZQB_fake_script)()
-local function YPGNEMX_fake_script() -- Zoom.LocalScript 
+coroutine.wrap(NRTBBGF_fake_script)()
+local function QPPSS_fake_script() -- Zoom.LocalScript 
 	local script = Instance.new('LocalScript', Zoom)
 
 	local button = script.Parent
@@ -2368,8 +2457,8 @@ local function YPGNEMX_fake_script() -- Zoom.LocalScript
 	end]] -- one day ill update this fancy thingy so it works with luau, too lazy for now
 	end)
 end
-coroutine.wrap(YPGNEMX_fake_script)()
-local function STROTP_fake_script() -- ServerCrasher.LocalScript 
+coroutine.wrap(QPPSS_fake_script)()
+local function GTIBO_fake_script() -- ServerCrasher.LocalScript 
 	local script = Instance.new('LocalScript', ServerCrasher)
 
 	local button = script.Parent
@@ -2482,8 +2571,8 @@ local function STROTP_fake_script() -- ServerCrasher.LocalScript
 		wait()
 	end)
 end
-coroutine.wrap(STROTP_fake_script)()
-local function KPJOA_fake_script() -- OpenGui.LocalScript 
+coroutine.wrap(GTIBO_fake_script)()
+local function OCOUYTH_fake_script() -- OpenGui.LocalScript 
 	local script = Instance.new('LocalScript', OpenGui)
 
 	local frame = script.Parent.Parent.Glow.BackgroundFrame
@@ -2495,29 +2584,27 @@ local function KPJOA_fake_script() -- OpenGui.LocalScript
 	local frame7 = script.Parent.Parent.Glow.BackgroundFrame.MenuFrame
 	local glow = script.Parent.Parent.Glow
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.BackgroundTransparency == 1 then
+	script.Parent.MouseButton1Up:Connect(function()
+		if glow.Visible == false then
+			glow.Visible = true
+			frame.Visible = true
 			frame.BackgroundTransparency = 0
 			frame2.Visible = true
 			frame7.Visible = true
-			frame3.Visible = false
-			frame4.Visible = false
-			frame5.Visible = false
-			frame6.Visible = false
 			
 		elseif frame.BackgroundTransparency == 0 then
+			frame.Visible = false
 			frame.BackgroundTransparency = 1
+			glow.Visible = false
 			frame2.Visible = false
 			frame3.Visible = false
 			frame4.Visible = false
 			frame5.Visible = false
 			frame6.Visible = false
 			frame7.Visible = false
-			glow.BackgroundTransparency = 1
-	
 		end
 	end)
 	
 	
 end
-coroutine.wrap(KPJOA_fake_script)()
+coroutine.wrap(OCOUYTH_fake_script)()

@@ -1,0 +1,2523 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local CoreysGUI = Instance.new("ScreenGui")
+local Glow = Instance.new("ImageLabel")
+local BackgroundFrame = Instance.new("Frame")
+local WelcomeFrame = Instance.new("Frame")
+local PlayerImage = Instance.new("ImageLabel")
+local WelcomeLabel = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextLabel")
+local OpenButton = Instance.new("TextButton")
+local MenuFrame = Instance.new("Frame")
+local PvPButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TrainingButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TeleportsButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UniversalSettingsButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PlayerImage2 = Instance.new("ImageLabel")
+local PlayerName2 = Instance.new("TextLabel")
+local Maximise = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Secret = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local PvP = Instance.new("Frame")
+local PvPLabel = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local AutoAttack = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local PsychicAll = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Cspam = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local NoRep = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local GodGui = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Cbring = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local AntiPsychic = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Void = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local ShieldRemove = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local AutoRespawn = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Credit = Instance.new("TextLabel")
+local SubLabel = Instance.new("TextLabel")
+local SubLabel2 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local Training = Instance.new("Frame")
+local TrainingLabel = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local BlackHub = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Split = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Stats = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local SunTp = Instance.new("TextLabel")
+local SpamTpSun = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local BtTp = Instance.new("TextLabel")
+local SpamTpBt = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local ZenTp = Instance.new("TextLabel")
+local SpamTpZen = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Teleports = Instance.new("Frame")
+local TeleportsLabel = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
+local UniversalSettings = Instance.new("Frame")
+local UniversalSettingsLabel = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local Setting1 = Instance.new("TextLabel")
+local GuiGlow = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Setting2 = Instance.new("TextLabel")
+local RedGui = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
+local Setting3 = Instance.new("TextLabel")
+local Purple = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Setting4 = Instance.new("TextLabel")
+local Orange = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Setting5 = Instance.new("TextLabel")
+local Yellow = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Setting6 = Instance.new("TextLabel")
+local Pink = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local CDM = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
+local SecretServerCrasher = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local PvPLabel_2 = Instance.new("TextLabel")
+local UICorner_41 = Instance.new("UICorner")
+local Zoom = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local ServerCrasher = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local OpenGui = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+
+--Properties:
+
+CoreysGUI.Name = "Corey's GUI"
+CoreysGUI.Parent = game.CoreGui
+CoreysGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Glow.Name = "Glow"
+Glow.Parent = CoreysGUI
+Glow.AnchorPoint = Vector2.new(0.5, 0.5)
+Glow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Glow.BackgroundTransparency = 1.000
+Glow.Position = UDim2.new(0.420861125, 0, 0.403634369, 0)
+Glow.Size = UDim2.new(0.465392381, 0, 0.713876665, 0)
+Glow.Image = "rbxassetid://5028857084"
+Glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+Glow.ImageTransparency = 1.000
+
+BackgroundFrame.Name = "BackgroundFrame"
+BackgroundFrame.Parent = Glow
+BackgroundFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+BackgroundFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+BackgroundFrame.BorderSizePixel = 0
+BackgroundFrame.Position = UDim2.new(0.0522774942, 0, 0.0531991199, 0)
+BackgroundFrame.Size = UDim2.new(0, 802, 0, 576)
+BackgroundFrame.Active = true
+BackgroundFrame.Draggable = true
+
+WelcomeFrame.Name = "WelcomeFrame"
+WelcomeFrame.Parent = BackgroundFrame
+WelcomeFrame.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+WelcomeFrame.Position = UDim2.new(0.0434379913, 0, 0.0669175312, 0)
+WelcomeFrame.Size = UDim2.new(0, 735, 0, 491)
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = WelcomeFrame
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.BackgroundTransparency = 1.000
+PlayerImage.BorderColor3 = Color3.fromRGB(170, 0, 255)
+PlayerImage.BorderSizePixel = 5
+PlayerImage.Position = UDim2.new(0.322094291, 0, 0.0322883427, 0)
+PlayerImage.Size = UDim2.new(0, 261, 0, 231)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+WelcomeLabel.Name = "WelcomeLabel"
+WelcomeLabel.Parent = WelcomeFrame
+WelcomeLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeLabel.BackgroundTransparency = 1.000
+WelcomeLabel.Position = UDim2.new(0.321019113, 0, 0.502123892, 0)
+WelcomeLabel.Size = UDim2.new(0, 259, 0, 78)
+WelcomeLabel.Font = Enum.Font.SourceSansLight
+WelcomeLabel.Text = "- Welcome To The Gui -"
+WelcomeLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+WelcomeLabel.TextSize = 31.000
+WelcomeLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+WelcomeLabel.TextStrokeTransparency = 0.000
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = WelcomeFrame
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BackgroundTransparency = 1.000
+PlayerName.Position = UDim2.new(0.169245914, 0, 0.632470131, 0)
+PlayerName.Size = UDim2.new(0, 484, 0, 64)
+PlayerName.Font = Enum.Font.SourceSansLight
+PlayerName.Text = ""
+PlayerName.TextColor3 = Color3.fromRGB(171, 86, 255)
+PlayerName.TextSize = 31.000
+PlayerName.TextStrokeColor3 = Color3.fromRGB(170, 0, 255)
+PlayerName.TextStrokeTransparency = 0.000
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = WelcomeFrame
+OpenButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+OpenButton.BackgroundTransparency = 0.600
+OpenButton.Position = UDim2.new(0.169245914, 0, 0.796003103, 0)
+OpenButton.Size = UDim2.new(0, 484, 0, 68)
+OpenButton.Font = Enum.Font.SourceSansLight
+OpenButton.Text = "OPEN"
+OpenButton.TextColor3 = Color3.fromRGB(0, 255, 255)
+OpenButton.TextSize = 37.000
+OpenButton.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+OpenButton.TextStrokeTransparency = 0.000
+
+MenuFrame.Name = "MenuFrame"
+MenuFrame.Parent = BackgroundFrame
+MenuFrame.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+MenuFrame.BorderSizePixel = 0
+MenuFrame.Position = UDim2.new(-0.000526086602, 0, -0.00022390153, 0)
+MenuFrame.Size = UDim2.new(0, 240, 0, 576)
+MenuFrame.Visible = false
+
+PvPButton.Name = "PvPButton"
+PvPButton.Parent = MenuFrame
+PvPButton.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+PvPButton.Position = UDim2.new(0.0833333358, 0, 0.100529104, 0)
+PvPButton.Size = UDim2.new(0, 200, 0, 50)
+PvPButton.Font = Enum.Font.SourceSans
+PvPButton.Text = "PvP"
+PvPButton.TextColor3 = Color3.fromRGB(171, 86, 255)
+PvPButton.TextSize = 25.000
+PvPButton.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+PvPButton.TextStrokeTransparency = 0.000
+
+UICorner.Parent = PvPButton
+
+TrainingButton.Name = "TrainingButton"
+TrainingButton.Parent = MenuFrame
+TrainingButton.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+TrainingButton.Position = UDim2.new(0.0833333358, 0, 0.246913567, 0)
+TrainingButton.Size = UDim2.new(0, 200, 0, 50)
+TrainingButton.Font = Enum.Font.SourceSans
+TrainingButton.Text = "Training"
+TrainingButton.TextColor3 = Color3.fromRGB(171, 86, 255)
+TrainingButton.TextSize = 25.000
+TrainingButton.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+TrainingButton.TextStrokeTransparency = 0.000
+
+UICorner_2.Parent = TrainingButton
+
+TeleportsButton.Name = "TeleportsButton"
+TeleportsButton.Parent = MenuFrame
+TeleportsButton.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+TeleportsButton.Position = UDim2.new(0.0833333358, 0, 0.391534388, 0)
+TeleportsButton.Size = UDim2.new(0, 200, 0, 50)
+TeleportsButton.Font = Enum.Font.SourceSans
+TeleportsButton.Text = "Teleports"
+TeleportsButton.TextColor3 = Color3.fromRGB(171, 86, 255)
+TeleportsButton.TextSize = 25.000
+TeleportsButton.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+TeleportsButton.TextStrokeTransparency = 0.000
+
+UICorner_3.Parent = TeleportsButton
+
+UniversalSettingsButton.Name = "UniversalSettingsButton"
+UniversalSettingsButton.Parent = MenuFrame
+UniversalSettingsButton.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+UniversalSettingsButton.Position = UDim2.new(0.0833333358, 0, 0.541446209, 0)
+UniversalSettingsButton.Size = UDim2.new(0, 200, 0, 50)
+UniversalSettingsButton.Font = Enum.Font.SourceSans
+UniversalSettingsButton.Text = "Settings"
+UniversalSettingsButton.TextColor3 = Color3.fromRGB(171, 86, 255)
+UniversalSettingsButton.TextSize = 25.000
+UniversalSettingsButton.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+UniversalSettingsButton.TextStrokeTransparency = 0.000
+
+UICorner_4.Parent = UniversalSettingsButton
+
+PlayerImage2.Name = "PlayerImage2"
+PlayerImage2.Parent = MenuFrame
+PlayerImage2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage2.Position = UDim2.new(0.0833333433, 0, 0.719576716, 0)
+PlayerImage2.Size = UDim2.new(0, 98, 0, 94)
+PlayerImage2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+PlayerName2.Name = "PlayerName2"
+PlayerName2.Parent = MenuFrame
+PlayerName2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName2.BackgroundTransparency = 1.000
+PlayerName2.Position = UDim2.new(0.0833333358, 0, 0.911816597, 0)
+PlayerName2.Size = UDim2.new(0, 200, 0, 38)
+PlayerName2.Font = Enum.Font.SourceSans
+PlayerName2.Text = ""
+PlayerName2.TextColor3 = Color3.fromRGB(0, 255, 255)
+PlayerName2.TextSize = 31.000
+PlayerName2.TextStrokeColor3 = Color3.fromRGB(85, 0, 255)
+PlayerName2.TextStrokeTransparency = 0.000
+PlayerName2.TextWrapped = true
+PlayerName2.TextXAlignment = Enum.TextXAlignment.Left
+
+Maximise.Name = "Maximise"
+Maximise.Parent = MenuFrame
+Maximise.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Maximise.Position = UDim2.new(0.0583333336, 0, 0.0158730168, 0)
+Maximise.Size = UDim2.new(0, 42, 0, 33)
+Maximise.Font = Enum.Font.SourceSans
+Maximise.Text = ""
+Maximise.TextColor3 = Color3.fromRGB(127, 0, 0)
+Maximise.TextSize = 37.000
+
+UICorner_5.Parent = Maximise
+
+UICorner_6.Parent = MenuFrame
+
+Secret.Name = "Secret"
+Secret.Parent = MenuFrame
+Secret.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Secret.BackgroundTransparency = 1.000
+Secret.Position = UDim2.new(0.579166651, 0, 0.719576657, 0)
+Secret.Size = UDim2.new(0, 81, 0, 60)
+Secret.Font = Enum.Font.SourceSans
+Secret.Text = "."
+Secret.TextColor3 = Color3.fromRGB(76, 76, 76)
+Secret.TextSize = 10.000
+Secret.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+Secret.TextStrokeTransparency = 0.000
+
+UICorner_7.Parent = Secret
+
+PvP.Name = "PvP"
+PvP.Parent = BackgroundFrame
+PvP.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+PvP.BorderSizePixel = 0
+PvP.Position = UDim2.new(0.297263652, 0, 0, 0)
+PvP.Size = UDim2.new(0, 565, 0, 576)
+PvP.Visible = false
+
+PvPLabel.Name = "PvPLabel"
+PvPLabel.Parent = PvP
+PvPLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PvPLabel.BorderSizePixel = 0
+PvPLabel.Position = UDim2.new(-0.0123893805, 0, 0, 0)
+PvPLabel.Selectable = true
+PvPLabel.Size = UDim2.new(0, 572, 0, 50)
+PvPLabel.Font = Enum.Font.SourceSans
+PvPLabel.Text = "PvP Section"
+PvPLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+PvPLabel.TextSize = 27.000
+PvPLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+PvPLabel.TextStrokeTransparency = 0.000
+
+UICorner_8.Parent = PvPLabel
+
+AutoAttack.Name = "AutoAttack"
+AutoAttack.Parent = PvP
+AutoAttack.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AutoAttack.Position = UDim2.new(0.0813397691, 0, 0.141805381, 0)
+AutoAttack.Size = UDim2.new(0, 164, 0, 63)
+AutoAttack.Font = Enum.Font.SourceSans
+AutoAttack.Text = "AUTO ATTACK"
+AutoAttack.TextColor3 = Color3.fromRGB(0, 255, 255)
+AutoAttack.TextSize = 18.000
+AutoAttack.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+AutoAttack.TextStrokeTransparency = 0.000
+
+UICorner_9.Parent = AutoAttack
+
+PsychicAll.Name = "PsychicAll"
+PsychicAll.Parent = PvP
+PsychicAll.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+PsychicAll.Position = UDim2.new(0.401245773, 0, 0.141805381, 0)
+PsychicAll.Size = UDim2.new(0, 113, 0, 63)
+PsychicAll.Font = Enum.Font.SourceSans
+PsychicAll.Text = "PsychicAll"
+PsychicAll.TextColor3 = Color3.fromRGB(0, 255, 255)
+PsychicAll.TextSize = 18.000
+PsychicAll.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+PsychicAll.TextStrokeTransparency = 0.000
+
+UICorner_10.Parent = PsychicAll
+
+Cspam.Name = "Cspam"
+Cspam.Parent = PvP
+Cspam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Cspam.Position = UDim2.new(0.630952299, 0, 0.141805381, 0)
+Cspam.Size = UDim2.new(0, 173, 0, 63)
+Cspam.Font = Enum.Font.SourceSans
+Cspam.Text = "CSPAM"
+Cspam.TextColor3 = Color3.fromRGB(0, 255, 255)
+Cspam.TextSize = 18.000
+Cspam.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Cspam.TextStrokeTransparency = 0.000
+
+UICorner_11.Parent = Cspam
+
+NoRep.Name = "NoRep"
+NoRep.Parent = PvP
+NoRep.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+NoRep.Position = UDim2.new(0.0813397691, 0, 0.305026621, 0)
+NoRep.Size = UDim2.new(0, 164, 0, 63)
+NoRep.Font = Enum.Font.SourceSans
+NoRep.Text = "NoRepTaking"
+NoRep.TextColor3 = Color3.fromRGB(0, 255, 255)
+NoRep.TextSize = 18.000
+NoRep.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+NoRep.TextStrokeTransparency = 0.000
+
+UICorner_12.Parent = NoRep
+
+GodGui.Name = "GodGui"
+GodGui.Parent = PvP
+GodGui.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+GodGui.Position = UDim2.new(0.630952299, 0, 0.305026621, 0)
+GodGui.Size = UDim2.new(0, 172, 0, 63)
+GodGui.Font = Enum.Font.SourceSans
+GodGui.Text = "GOD GUI"
+GodGui.TextColor3 = Color3.fromRGB(0, 255, 255)
+GodGui.TextSize = 18.000
+GodGui.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+GodGui.TextStrokeTransparency = 0.000
+
+UICorner_13.Parent = GodGui
+
+Cbring.Name = "Cbring"
+Cbring.Parent = PvP
+Cbring.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Cbring.Position = UDim2.new(0.399923831, 0, 0.305026621, 0)
+Cbring.Size = UDim2.new(0, 113, 0, 63)
+Cbring.Font = Enum.Font.SourceSans
+Cbring.Text = "Cbring"
+Cbring.TextColor3 = Color3.fromRGB(0, 255, 255)
+Cbring.TextSize = 18.000
+Cbring.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Cbring.TextStrokeTransparency = 0.000
+
+UICorner_14.Parent = Cbring
+
+AntiPsychic.Name = "AntiPsychic"
+AntiPsychic.Parent = PvP
+AntiPsychic.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AntiPsychic.Position = UDim2.new(0.0813397691, 0, 0.532122552, 0)
+AntiPsychic.Size = UDim2.new(0, 226, 0, 63)
+AntiPsychic.Font = Enum.Font.SourceSans
+AntiPsychic.Text = "Anti Psychic"
+AntiPsychic.TextColor3 = Color3.fromRGB(0, 255, 255)
+AntiPsychic.TextSize = 18.000
+AntiPsychic.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+AntiPsychic.TextStrokeTransparency = 0.000
+
+UICorner_15.Parent = AntiPsychic
+
+Void.Name = "Void"
+Void.Parent = PvP
+Void.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Void.Position = UDim2.new(0.514968097, 0, 0.532122552, 0)
+Void.Size = UDim2.new(0, 237, 0, 63)
+Void.Font = Enum.Font.SourceSans
+Void.Text = "Void"
+Void.TextColor3 = Color3.fromRGB(0, 255, 255)
+Void.TextSize = 18.000
+Void.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Void.TextStrokeTransparency = 0.000
+
+UICorner_16.Parent = Void
+
+ShieldRemove.Name = "ShieldRemove"
+ShieldRemove.Parent = PvP
+ShieldRemove.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+ShieldRemove.Position = UDim2.new(0.516737998, 0, 0.721271992, 0)
+ShieldRemove.Size = UDim2.new(0, 237, 0, 63)
+ShieldRemove.Font = Enum.Font.SourceSans
+ShieldRemove.Text = "Shield Remove"
+ShieldRemove.TextColor3 = Color3.fromRGB(0, 255, 255)
+ShieldRemove.TextSize = 18.000
+ShieldRemove.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+ShieldRemove.TextStrokeTransparency = 0.000
+
+UICorner_17.Parent = ShieldRemove
+
+AutoRespawn.Name = "AutoRespawn"
+AutoRespawn.Parent = PvP
+AutoRespawn.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+AutoRespawn.Position = UDim2.new(0.0813397691, 0, 0.722246528, 0)
+AutoRespawn.Size = UDim2.new(0, 226, 0, 63)
+AutoRespawn.Font = Enum.Font.SourceSans
+AutoRespawn.Text = "Auto Respawn"
+AutoRespawn.TextColor3 = Color3.fromRGB(0, 255, 255)
+AutoRespawn.TextSize = 18.000
+AutoRespawn.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+AutoRespawn.TextStrokeTransparency = 0.000
+
+UICorner_18.Parent = AutoRespawn
+
+Credit.Name = "Credit"
+Credit.Parent = PvP
+Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credit.BackgroundTransparency = 1.000
+Credit.Position = UDim2.new(0.0477876104, 0, 0.882042229, 0)
+Credit.Size = UDim2.new(0, 502, 0, 50)
+Credit.Font = Enum.Font.Antique
+Credit.Text = "Disclaimer This Gui Was Created & Designed By Corey#7787"
+Credit.TextColor3 = Color3.fromRGB(171, 86, 255)
+Credit.TextSize = 23.000
+Credit.TextWrapped = true
+
+SubLabel.Name = "SubLabel"
+SubLabel.Parent = PvP
+SubLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SubLabel.BackgroundTransparency = 1.000
+SubLabel.Position = UDim2.new(0.315044254, 0, 0.0721830949, 0)
+SubLabel.Size = UDim2.new(0, 200, 0, 50)
+SubLabel.Font = Enum.Font.SourceSans
+SubLabel.Text = "-- Main PvP Scripts --"
+SubLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+SubLabel.TextSize = 17.000
+
+SubLabel2.Name = "SubLabel2"
+SubLabel2.Parent = PvP
+SubLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SubLabel2.BackgroundTransparency = 1.000
+SubLabel2.Position = UDim2.new(0.323893815, 0, 0.433098584, 0)
+SubLabel2.Size = UDim2.new(0, 200, 0, 50)
+SubLabel2.Font = Enum.Font.SourceSans
+SubLabel2.Text = "-- Side PvP Scripts --"
+SubLabel2.TextColor3 = Color3.fromRGB(0, 255, 255)
+SubLabel2.TextSize = 17.000
+
+UICorner_19.Parent = PvP
+
+Training.Name = "Training"
+Training.Parent = BackgroundFrame
+Training.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Training.BorderSizePixel = 0
+Training.Position = UDim2.new(0.297263652, 0, 0, 0)
+Training.Size = UDim2.new(0, 565, 0, 576)
+Training.Visible = false
+
+TrainingLabel.Name = "TrainingLabel"
+TrainingLabel.Parent = Training
+TrainingLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+TrainingLabel.BorderSizePixel = 0
+TrainingLabel.Position = UDim2.new(-0.010619469, 0, 0, 0)
+TrainingLabel.Selectable = true
+TrainingLabel.Size = UDim2.new(0, 571, 0, 50)
+TrainingLabel.Font = Enum.Font.SourceSans
+TrainingLabel.Text = "Training Section"
+TrainingLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TrainingLabel.TextSize = 27.000
+TrainingLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+TrainingLabel.TextStrokeTransparency = 0.000
+
+UICorner_20.Parent = TrainingLabel
+
+UICorner_21.Parent = Training
+
+BlackHub.Name = "BlackHub"
+BlackHub.Parent = Training
+BlackHub.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+BlackHub.Position = UDim2.new(0.061040774, 0, 0.136623859, 0)
+BlackHub.Size = UDim2.new(0, 490, 0, 63)
+BlackHub.Font = Enum.Font.SourceSans
+BlackHub.Text = "BlackHub"
+BlackHub.TextColor3 = Color3.fromRGB(0, 255, 255)
+BlackHub.TextSize = 18.000
+BlackHub.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+BlackHub.TextStrokeTransparency = 0.000
+
+UICorner_22.Parent = BlackHub
+
+Split.Name = "Split"
+Split.Parent = Training
+Split.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Split.Position = UDim2.new(0.0663505048, 0, 0.280721068, 0)
+Split.Size = UDim2.new(0, 490, 0, 63)
+Split.Font = Enum.Font.SourceSans
+Split.Text = "Split Tp"
+Split.TextColor3 = Color3.fromRGB(0, 255, 255)
+Split.TextSize = 18.000
+Split.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Split.TextStrokeTransparency = 0.000
+
+UICorner_23.Parent = Split
+
+Stats.Name = "Stats"
+Stats.Parent = Training
+Stats.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Stats.Position = UDim2.new(0.0663505048, 0, 0.431762755, 0)
+Stats.Size = UDim2.new(0, 490, 0, 63)
+Stats.Font = Enum.Font.SourceSans
+Stats.Text = "Stats Checker"
+Stats.TextColor3 = Color3.fromRGB(0, 255, 255)
+Stats.TextSize = 18.000
+Stats.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Stats.TextStrokeTransparency = 0.000
+
+UICorner_24.Parent = Stats
+
+SunTp.Name = "SunTp"
+SunTp.Parent = Training
+SunTp.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SunTp.Position = UDim2.new(0.0707964599, 0, 0.586072028, 0)
+SunTp.Size = UDim2.new(0, 484, 0, 50)
+SunTp.Font = Enum.Font.SourceSans
+SunTp.Text = "   Spam Tp Sun"
+SunTp.TextColor3 = Color3.fromRGB(0, 255, 255)
+SunTp.TextSize = 20.000
+SunTp.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SunTp.TextStrokeTransparency = 0.000
+SunTp.TextXAlignment = Enum.TextXAlignment.Left
+
+SpamTpSun.Name = "SpamTpSun"
+SpamTpSun.Parent = SunTp
+SpamTpSun.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SpamTpSun.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+SpamTpSun.Size = UDim2.new(0, 58, 0, 28)
+SpamTpSun.Font = Enum.Font.SourceSans
+SpamTpSun.Text = ""
+SpamTpSun.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamTpSun.TextSize = 18.000
+SpamTpSun.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+SpamTpSun.TextStrokeTransparency = 0.000
+
+UICorner_25.Parent = SpamTpSun
+
+BtTp.Name = "BtTp"
+BtTp.Parent = Training
+BtTp.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+BtTp.Position = UDim2.new(0.0707964599, 0, 0.718016505, 0)
+BtTp.Size = UDim2.new(0, 484, 0, 50)
+BtTp.Font = Enum.Font.SourceSans
+BtTp.Text = "   Spam Tp BT"
+BtTp.TextColor3 = Color3.fromRGB(0, 255, 255)
+BtTp.TextSize = 20.000
+BtTp.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+BtTp.TextStrokeTransparency = 0.000
+BtTp.TextXAlignment = Enum.TextXAlignment.Left
+
+SpamTpBt.Name = "SpamTpBt"
+SpamTpBt.Parent = BtTp
+SpamTpBt.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SpamTpBt.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+SpamTpBt.Size = UDim2.new(0, 58, 0, 28)
+SpamTpBt.Font = Enum.Font.SourceSans
+SpamTpBt.Text = ""
+SpamTpBt.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamTpBt.TextSize = 18.000
+SpamTpBt.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+SpamTpBt.TextStrokeTransparency = 0.000
+
+UICorner_26.Parent = SpamTpBt
+
+ZenTp.Name = "ZenTp"
+ZenTp.Parent = Training
+ZenTp.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+ZenTp.Position = UDim2.new(0.0707964599, 0, 0.851697087, 0)
+ZenTp.Size = UDim2.new(0, 484, 0, 50)
+ZenTp.Font = Enum.Font.SourceSans
+ZenTp.Text = "   Spam Tp Zen"
+ZenTp.TextColor3 = Color3.fromRGB(0, 255, 255)
+ZenTp.TextSize = 20.000
+ZenTp.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ZenTp.TextStrokeTransparency = 0.000
+ZenTp.TextXAlignment = Enum.TextXAlignment.Left
+
+SpamTpZen.Name = "SpamTpZen"
+SpamTpZen.Parent = ZenTp
+SpamTpZen.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SpamTpZen.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+SpamTpZen.Size = UDim2.new(0, 58, 0, 28)
+SpamTpZen.Font = Enum.Font.SourceSans
+SpamTpZen.Text = ""
+SpamTpZen.TextColor3 = Color3.fromRGB(0, 255, 255)
+SpamTpZen.TextSize = 18.000
+SpamTpZen.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+SpamTpZen.TextStrokeTransparency = 0.000
+
+UICorner_27.Parent = SpamTpZen
+
+Teleports.Name = "Teleports"
+Teleports.Parent = BackgroundFrame
+Teleports.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Teleports.BorderSizePixel = 0
+Teleports.Position = UDim2.new(0.297263652, 0, 0, 0)
+Teleports.Size = UDim2.new(0, 565, 0, 575)
+Teleports.Visible = false
+
+TeleportsLabel.Name = "TeleportsLabel"
+TeleportsLabel.Parent = Teleports
+TeleportsLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+TeleportsLabel.BorderSizePixel = 0
+TeleportsLabel.Position = UDim2.new(-0.014159292, 0, 0, 0)
+TeleportsLabel.Selectable = true
+TeleportsLabel.Size = UDim2.new(0, 573, 0, 50)
+TeleportsLabel.Font = Enum.Font.SourceSans
+TeleportsLabel.Text = "Teleports Section"
+TeleportsLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TeleportsLabel.TextSize = 27.000
+TeleportsLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+TeleportsLabel.TextStrokeTransparency = 0.000
+
+UICorner_28.Parent = TeleportsLabel
+
+UICorner_29.Parent = Teleports
+
+UniversalSettings.Name = "UniversalSettings"
+UniversalSettings.Parent = BackgroundFrame
+UniversalSettings.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+UniversalSettings.BorderSizePixel = 0
+UniversalSettings.Position = UDim2.new(0.297263682, 0, 0, 0)
+UniversalSettings.Size = UDim2.new(0, 565, 0, 576)
+UniversalSettings.Visible = false
+
+UniversalSettingsLabel.Name = "UniversalSettingsLabel"
+UniversalSettingsLabel.Parent = UniversalSettings
+UniversalSettingsLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+UniversalSettingsLabel.BorderSizePixel = 0
+UniversalSettingsLabel.Position = UDim2.new(-0.0343769453, 0, 0, 0)
+UniversalSettingsLabel.Selectable = true
+UniversalSettingsLabel.Size = UDim2.new(0, 584, 0, 50)
+UniversalSettingsLabel.Font = Enum.Font.SourceSans
+UniversalSettingsLabel.Text = "Universal Section"
+UniversalSettingsLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+UniversalSettingsLabel.TextSize = 27.000
+UniversalSettingsLabel.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+UniversalSettingsLabel.TextStrokeTransparency = 0.000
+
+UICorner_30.Parent = UniversalSettingsLabel
+
+Setting1.Name = "Setting1"
+Setting1.Parent = UniversalSettings
+Setting1.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting1.Position = UDim2.new(0.0707964599, 0, 0.134756446, 0)
+Setting1.Size = UDim2.new(0, 484, 0, 50)
+Setting1.Font = Enum.Font.SourceSans
+Setting1.Text = "   GUI GLOW"
+Setting1.TextColor3 = Color3.fromRGB(0, 255, 255)
+Setting1.TextSize = 20.000
+Setting1.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Setting1.TextStrokeTransparency = 0.000
+Setting1.TextXAlignment = Enum.TextXAlignment.Left
+
+GuiGlow.Name = "GuiGlow"
+GuiGlow.Parent = Setting1
+GuiGlow.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+GuiGlow.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+GuiGlow.Size = UDim2.new(0, 58, 0, 28)
+GuiGlow.Font = Enum.Font.SourceSans
+GuiGlow.Text = ""
+GuiGlow.TextColor3 = Color3.fromRGB(0, 255, 255)
+GuiGlow.TextSize = 18.000
+GuiGlow.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+GuiGlow.TextStrokeTransparency = 0.000
+
+UICorner_31.Parent = GuiGlow
+
+Setting2.Name = "Setting2"
+Setting2.Parent = UniversalSettings
+Setting2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting2.Position = UDim2.new(0.0707964599, 0, 0.263155341, 0)
+Setting2.Size = UDim2.new(0, 484, 0, 50)
+Setting2.Font = Enum.Font.SourceSans
+Setting2.Text = "   Red Gui"
+Setting2.TextColor3 = Color3.fromRGB(255, 0, 12)
+Setting2.TextSize = 20.000
+Setting2.TextStrokeTransparency = 0.000
+Setting2.TextXAlignment = Enum.TextXAlignment.Left
+
+RedGui.Name = "RedGui"
+RedGui.Parent = Setting2
+RedGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+RedGui.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+RedGui.Size = UDim2.new(0, 58, 0, 28)
+RedGui.Font = Enum.Font.SourceSans
+RedGui.Text = ""
+RedGui.TextColor3 = Color3.fromRGB(0, 255, 255)
+RedGui.TextSize = 18.000
+RedGui.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+RedGui.TextStrokeTransparency = 0.000
+
+UICorner_32.Parent = RedGui
+
+UICorner_33.Parent = UniversalSettings
+
+Setting3.Name = "Setting3"
+Setting3.Parent = UniversalSettings
+Setting3.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting3.Position = UDim2.new(0.0707964599, 0, 0.376051426, 0)
+Setting3.Size = UDim2.new(0, 484, 0, 50)
+Setting3.Font = Enum.Font.SourceSans
+Setting3.Text = "   Purple Gui"
+Setting3.TextColor3 = Color3.fromRGB(170, 0, 255)
+Setting3.TextSize = 20.000
+Setting3.TextStrokeTransparency = 0.000
+Setting3.TextXAlignment = Enum.TextXAlignment.Left
+
+Purple.Name = "Purple"
+Purple.Parent = Setting3
+Purple.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Purple.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+Purple.Size = UDim2.new(0, 58, 0, 28)
+Purple.Font = Enum.Font.SourceSans
+Purple.Text = ""
+Purple.TextColor3 = Color3.fromRGB(0, 255, 255)
+Purple.TextSize = 18.000
+Purple.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Purple.TextStrokeTransparency = 0.000
+
+UICorner_34.Parent = Purple
+
+Setting4.Name = "Setting4"
+Setting4.Parent = UniversalSettings
+Setting4.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting4.Position = UDim2.new(0.0707964599, 0, 0.490781486, 0)
+Setting4.Size = UDim2.new(0, 484, 0, 50)
+Setting4.Font = Enum.Font.SourceSans
+Setting4.Text = "   Orange Gui"
+Setting4.TextColor3 = Color3.fromRGB(255, 85, 0)
+Setting4.TextSize = 20.000
+Setting4.TextStrokeTransparency = 0.000
+Setting4.TextXAlignment = Enum.TextXAlignment.Left
+
+Orange.Name = "Orange"
+Orange.Parent = Setting4
+Orange.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Orange.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+Orange.Size = UDim2.new(0, 58, 0, 28)
+Orange.Font = Enum.Font.SourceSans
+Orange.Text = ""
+Orange.TextColor3 = Color3.fromRGB(0, 255, 255)
+Orange.TextSize = 18.000
+Orange.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Orange.TextStrokeTransparency = 0.000
+
+UICorner_35.Parent = Orange
+
+Setting5.Name = "Setting5"
+Setting5.Parent = UniversalSettings
+Setting5.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting5.Position = UDim2.new(0.0707964599, 0, 0.603702009, 0)
+Setting5.Size = UDim2.new(0, 484, 0, 50)
+Setting5.Font = Enum.Font.SourceSans
+Setting5.Text = "   Yellow Gui"
+Setting5.TextColor3 = Color3.fromRGB(255, 255, 0)
+Setting5.TextSize = 20.000
+Setting5.TextStrokeTransparency = 0.000
+Setting5.TextXAlignment = Enum.TextXAlignment.Left
+
+Yellow.Name = "Yellow"
+Yellow.Parent = Setting5
+Yellow.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Yellow.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+Yellow.Size = UDim2.new(0, 58, 0, 28)
+Yellow.Font = Enum.Font.SourceSans
+Yellow.Text = ""
+Yellow.TextColor3 = Color3.fromRGB(0, 255, 255)
+Yellow.TextSize = 18.000
+Yellow.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Yellow.TextStrokeTransparency = 0.000
+
+UICorner_36.Parent = Yellow
+
+Setting6.Name = "Setting6"
+Setting6.Parent = UniversalSettings
+Setting6.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting6.Position = UDim2.new(0.0707964599, 0, 0.718432069, 0)
+Setting6.Size = UDim2.new(0, 484, 0, 50)
+Setting6.Font = Enum.Font.SourceSans
+Setting6.Text = "   Pink Gui"
+Setting6.TextColor3 = Color3.fromRGB(255, 0, 255)
+Setting6.TextSize = 20.000
+Setting6.TextStrokeTransparency = 0.000
+Setting6.TextXAlignment = Enum.TextXAlignment.Left
+
+Pink.Name = "Pink"
+Pink.Parent = Setting6
+Pink.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Pink.Position = UDim2.new(0.850665152, 0, 0.206946418, 0)
+Pink.Size = UDim2.new(0, 58, 0, 28)
+Pink.Font = Enum.Font.SourceSans
+Pink.Text = ""
+Pink.TextColor3 = Color3.fromRGB(0, 255, 255)
+Pink.TextSize = 18.000
+Pink.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Pink.TextStrokeTransparency = 0.000
+
+UICorner_37.Parent = Pink
+
+CDM.Name = "CDM"
+CDM.Parent = UniversalSettings
+CDM.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+CDM.Position = UDim2.new(0.064580597, 0, 0.844957173, 0)
+CDM.Size = UDim2.new(0, 490, 0, 63)
+CDM.Font = Enum.Font.SourceSans
+CDM.Text = "CDM-X"
+CDM.TextColor3 = Color3.fromRGB(170, 255, 0)
+CDM.TextSize = 18.000
+CDM.TextStrokeColor3 = Color3.fromRGB(255, 255, 0)
+CDM.TextStrokeTransparency = 0.000
+
+UICorner_38.Parent = CDM
+
+UICorner_39.Parent = BackgroundFrame
+
+SecretServerCrasher.Name = "SecretServerCrasher"
+SecretServerCrasher.Parent = BackgroundFrame
+SecretServerCrasher.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SecretServerCrasher.Position = UDim2.new(0.298004985, 0, 0, 0)
+SecretServerCrasher.Size = UDim2.new(0, 563, 0, 576)
+SecretServerCrasher.Visible = false
+
+UICorner_40.Parent = SecretServerCrasher
+
+PvPLabel_2.Name = "PvPLabel"
+PvPLabel_2.Parent = SecretServerCrasher
+PvPLabel_2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PvPLabel_2.BorderSizePixel = 0
+PvPLabel_2.Position = UDim2.new(-0.0230465718, 0, 0, 0)
+PvPLabel_2.Selectable = true
+PvPLabel_2.Size = UDim2.new(0, 578, 0, 50)
+PvPLabel_2.Font = Enum.Font.SourceSans
+PvPLabel_2.Text = "Secret Section that only Corey & Ellena know of"
+PvPLabel_2.TextColor3 = Color3.fromRGB(0, 255, 255)
+PvPLabel_2.TextSize = 27.000
+PvPLabel_2.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+PvPLabel_2.TextStrokeTransparency = 0.000
+
+UICorner_41.Parent = PvPLabel_2
+
+Zoom.Name = "Zoom"
+Zoom.Parent = SecretServerCrasher
+Zoom.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Zoom.Position = UDim2.new(0.0529206246, 0, 0.136289224, 0)
+Zoom.Size = UDim2.new(0, 511, 0, 63)
+Zoom.Font = Enum.Font.SourceSans
+Zoom.Text = "Zoom Out [Use this before the Server Crasher]"
+Zoom.TextColor3 = Color3.fromRGB(0, 255, 255)
+Zoom.TextSize = 18.000
+Zoom.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+Zoom.TextStrokeTransparency = 0.000
+
+UICorner_42.Parent = Zoom
+
+ServerCrasher.Name = "ServerCrasher"
+ServerCrasher.Parent = SecretServerCrasher
+ServerCrasher.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ServerCrasher.Position = UDim2.new(0.0529206246, 0, 0.280386448, 0)
+ServerCrasher.Size = UDim2.new(0, 511, 0, 181)
+ServerCrasher.Font = Enum.Font.SourceSans
+ServerCrasher.Text = "SERVER CRASHER"
+ServerCrasher.TextColor3 = Color3.fromRGB(0, 255, 255)
+ServerCrasher.TextSize = 45.000
+ServerCrasher.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+ServerCrasher.TextStrokeTransparency = 0.000
+
+UICorner_43.Parent = ServerCrasher
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = CoreysGUI
+OpenGui.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+OpenGui.Position = UDim2.new(0, 0, 0.50660795, 0)
+OpenGui.Size = UDim2.new(0, 200, 0, 50)
+OpenGui.Visible = false
+OpenGui.Font = Enum.Font.SourceSans
+OpenGui.Text = "OPEN"
+OpenGui.TextColor3 = Color3.fromRGB(0, 255, 255)
+OpenGui.TextSize = 22.000
+
+UICorner_44.Parent = OpenGui
+
+-- Scripts:
+
+local function EVFKBJP_fake_script() -- OpenButton.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton)
+
+	local frame = script.Parent.Parent.Parent.WelcomeFrame-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Parent.Parent.OpenGui
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == true then
+			wait()
+			frame.Visible = false
+			background.BackgroundTransparency = 1
+			wait()
+			frame2.Visible = true
+			
+		end
+	end)
+end
+coroutine.wrap(EVFKBJP_fake_script)()
+local function YDVFW_fake_script() -- WelcomeFrame.LocalScript 
+	local script = Instance.new('LocalScript', WelcomeFrame)
+
+	local frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumType = Enum.ThumbnailType.AvatarBust
+	local thumSize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetUserThumbnailAsync(userId, thumType, thumSize)
+	
+	frame.PlayerImage.Image = content -- change the name of these acording
+	frame.PlayerName.Text = player.Name-- this aswell
+end
+coroutine.wrap(YDVFW_fake_script)()
+local function OUOS_fake_script() -- PvPButton.LocalScript 
+	local script = Instance.new('LocalScript', PvPButton)
+
+	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Training
+	local frame3 = script.Parent.Parent.Parent.Teleports
+	local frame4 = script.Parent.Parent.Parent.UniversalSettings
+	local frame5 = script.Parent.Parent.Parent.SecretServerCrasher
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if background.BackgroundTransparency == 1 then
+			print(" ")
+		
+		elseif frame.Visible == false then
+			frame.Visible = true
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+			
+		
+		end
+	end)
+end
+coroutine.wrap(OUOS_fake_script)()
+local function EDJKO_fake_script() -- TrainingButton.LocalScript 
+	local script = Instance.new('LocalScript', TrainingButton)
+
+	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Training
+	local frame3 = script.Parent.Parent.Parent.Teleports
+	local frame4 = script.Parent.Parent.Parent.UniversalSettings
+	local frame5 = script.Parent.Parent.Parent.SecretServerCrasher
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if background.BackgroundTransparency == 1 then
+			print(" ")
+		
+		elseif frame2.Visible == false then
+			frame.Visible = false
+			frame2.Visible = true
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+			
+		elseif frame2.Visible == true then
+			frame.Visible = true
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+		
+	
+		end
+	end)
+end
+coroutine.wrap(EDJKO_fake_script)()
+local function BIKPR_fake_script() -- TeleportsButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportsButton)
+
+	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Training
+	local frame3 = script.Parent.Parent.Parent.Teleports
+	local frame4 = script.Parent.Parent.Parent.UniversalSettings
+	local frame5 = script.Parent.Parent.Parent.SecretServerCrasher
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if background.BackgroundTransparency == 1 then
+			print(" ")
+		
+		elseif frame3.Visible == false then
+			frame.Visible = false
+			frame2.Visible = false
+			frame3.Visible = true
+			frame4.Visible = false
+			frame5.Visible = false
+	
+		elseif frame3.Visible == true then
+			frame.Visible = true
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+	
+	
+		end
+	end)
+end
+coroutine.wrap(BIKPR_fake_script)()
+local function WHNQ_fake_script() -- UniversalSettingsButton.LocalScript 
+	local script = Instance.new('LocalScript', UniversalSettingsButton)
+
+	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Training
+	local frame3 = script.Parent.Parent.Parent.Teleports
+	local frame4 = script.Parent.Parent.Parent.UniversalSettings
+	local frame5 = script.Parent.Parent.Parent.SecretServerCrasher
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if background.BackgroundTransparency == 1 then
+			print(" ")
+		
+		elseif frame4.Visible == false then
+			frame.Visible = false
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = true
+			frame5.Visible = false
+	
+		elseif frame4.Visible == true then
+			frame.Visible = true
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+	
+	
+		end
+	end)
+end
+coroutine.wrap(WHNQ_fake_script)()
+local function YUXB_fake_script() -- MenuFrame.LocalScript 
+	local script = Instance.new('LocalScript', MenuFrame)
+
+	local frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumType = Enum.ThumbnailType.AvatarBust
+	local thumSize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetUserThumbnailAsync(userId, thumType, thumSize)
+	
+	frame.PlayerImage2.Image = content -- change the name of these acording
+	frame.PlayerName2.Text = player.Name-- this aswell
+	
+end
+coroutine.wrap(YUXB_fake_script)()
+local function UVQXRXE_fake_script() -- Maximise.LocalScript 
+	local script = Instance.new('LocalScript', Maximise)
+
+	local PvP = script.Parent.Parent.Parent.PvP
+	local Teleports = script.Parent.Parent.Parent.Teleports
+	local Training = script.Parent.Parent.Parent.Training
+	local ThisOne = script.Parent.Parent.Parent.UniversalSettings
+	local Background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local Minimise = script.Parent
+	
+	local function maximise()
+		if PvP.Visible == false or Teleports.Visible == false or Training.Visible == false or ThisOne.Visible == false then
+			
+			Minimise.BackgroundColor3 = Color3.fromRGB(0,255,0)
+			Teleports.Visible = false
+			Training.Visible = false
+			ThisOne.Visible = false
+			wait()
+			Background.BackgroundTransparency = 1
+			wait(0.1)
+			Background.BackgroundTransparency = 0.9
+			wait(0.1)
+			Background.BackgroundTransparency = 0.8
+			wait(0.1)
+			Background.BackgroundTransparency = 0.7
+			wait(0.1)
+			Background.BackgroundTransparency = 0.6
+			wait(0.1)
+			Background.BackgroundTransparency = 0.5
+			wait(0.1)
+			Background.BackgroundTransparency = 0.4
+			wait(0.1)
+			Background.BackgroundTransparency = 0.3
+			wait(0.1)
+			Background.BackgroundTransparency = 0.2
+			wait(0.1)
+			Background.BackgroundTransparency = 0.1
+			wait(0.1)
+			Background.BackgroundTransparency = 0.0
+			PvP.Visible = true
+		end
+	end
+	
+	local function minimise()
+		if PvP.Visible == true or Teleports.Visible == true or Training.Visible == true or ThisOne.Visible == true then
+			Minimise.BackgroundColor3 = Color3.fromRGB(255,0,0)
+			PvP.Visible = false
+			Teleports.Visible = false
+			Training.Visible = false
+			ThisOne.Visible = false
+			wait()
+			Background.BackgroundTransparency = 0.1
+			wait(0.1)
+			Background.BackgroundTransparency = 0.2
+			wait(0.1)
+			Background.BackgroundTransparency = 0.3
+			wait(0.1)
+			Background.BackgroundTransparency = 0.4
+			wait(0.1)
+			Background.BackgroundTransparency = 0.5
+			wait(0.1)
+			Background.BackgroundTransparency = 0.6
+			wait(0.1)
+			Background.BackgroundTransparency = 0.7
+			wait(0.1)
+			Background.BackgroundTransparency = 0.8
+			wait(0.1)
+			Background.BackgroundTransparency = 0.9
+			wait(0.1)
+			Background.BackgroundTransparency = 1
+		end
+	end
+	
+	Minimise.MouseButton1Click:Connect(function()
+		if Minimise.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			minimise()
+			
+		elseif Minimise.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			maximise()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(UVQXRXE_fake_script)()
+local function QWIU_fake_script() -- Secret.LocalScript 
+	local script = Instance.new('LocalScript', Secret)
+
+	local frame = script.Parent.Parent.Parent.PvP-- change “Frame” to the name of the frame
+	local frame2 = script.Parent.Parent.Parent.Training
+	local frame3 = script.Parent.Parent.Parent.Teleports
+	local frame4 = script.Parent.Parent.Parent.UniversalSettings
+	local frame5 = script.Parent.Parent.Parent.SecretServerCrasher
+	local background = script.Parent.Parent.Parent.Parent.BackgroundFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if background.BackgroundTransparency == 1 then
+			print(" ")
+		
+		elseif frame.Visible == false then
+			frame.Visible = false
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = true
+			
+		
+		end
+	end)
+end
+coroutine.wrap(QWIU_fake_script)()
+local function LRMDND_fake_script() -- AutoAttack.LocalScript 
+	local script = Instance.new('LocalScript', AutoAttack)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Auto%20Attack", true))()
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Auto%20Attack%20off", true))()
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(LRMDND_fake_script)()
+local function UOHFC_fake_script() -- PsychicAll.LocalScript 
+	local script = Instance.new('LocalScript', PsychicAll)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20all%20on", true))()
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Psychic%20all%20off", true))()
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(UOHFC_fake_script)()
+local function LWXURBU_fake_script() -- Cspam.LocalScript 
+	local script = Instance.new('LocalScript', Cspam)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/CSpam"),true))()
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/CspamOff", true))()
+	end
+	
+	button.MouseButton1Down:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(LWXURBU_fake_script)()
+local function OIGMXQV_fake_script() -- NoRep.LocalScript 
+	local script = Instance.new('LocalScript', NoRep)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Head.NameBbGui.NameTxt: Destroy()
+	end)
+end
+coroutine.wrap(OIGMXQV_fake_script)()
+local function CCJLYPW_fake_script() -- GodGui.LocalScript 
+	local script = Instance.new('LocalScript', GodGui)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/GOD%20MODE%20GUI", true))()
+	end)
+end
+coroutine.wrap(CCJLYPW_fake_script)()
+local function MFPVI_fake_script() -- Cbring.LocalScript 
+	local script = Instance.new('LocalScript', Cbring)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Cbring"),true))()
+	end)
+end
+coroutine.wrap(MFPVI_fake_script)()
+local function WFTA_fake_script() -- AntiPsychic.LocalScript 
+	local script = Instance.new('LocalScript', AntiPsychic)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Anti%20Psychic", true))()
+	end)
+end
+coroutine.wrap(WFTA_fake_script)()
+local function VLQI_fake_script() -- Void.LocalScript 
+	local script = Instance.new('LocalScript', Void)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", true))()
+	end)
+end
+coroutine.wrap(VLQI_fake_script)()
+local function PGJAZNA_fake_script() -- ShieldRemove.LocalScript 
+	local script = Instance.new('LocalScript', ShieldRemove)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		_G.Toggle = true
+		while _G.Toggle do
+			wait()
+			for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v.Name == "ForceField" then
+					v:Destroy()
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(PGJAZNA_fake_script)()
+local function CYQVC_fake_script() -- AutoRespawn.LocalScript 
+	local script = Instance.new('LocalScript', AutoRespawn)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OpRespawn2"),true))()
+	end)
+end
+coroutine.wrap(CYQVC_fake_script)()
+local function LRGJK_fake_script() -- BlackHub.LocalScript 
+	local script = Instance.new('LocalScript', BlackHub)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20BLACKHUB", true))()
+	end)
+end
+coroutine.wrap(LRGJK_fake_script)()
+local function AXFDWD_fake_script() -- Split.LocalScript 
+	local script = Instance.new('LocalScript', Split)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/OP%20Split", true))()
+	end)
+end
+coroutine.wrap(AXFDWD_fake_script)()
+local function OACWXXC_fake_script() -- Stats.LocalScript 
+	local script = Instance.new('LocalScript', Stats)
+
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xqCorey/Scripts/Main/Multi_checker_SPTS.lua", true))()
+	end)
+end
+coroutine.wrap(OACWXXC_fake_script)()
+local function CIRV_fake_script() -- SpamTpSun.LocalScript 
+	local script = Instance.new('LocalScript', SpamTpSun)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		I = 1 
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+		end
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		I = 0
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369,15735,-9)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+	
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(CIRV_fake_script)()
+local function KYNNO_fake_script() -- SpamTpBt.LocalScript 
+	local script = Instance.new('LocalScript', SpamTpBt)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		I = 1
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+		end
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		I = 0
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279,282,1007)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+	
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(KYNNO_fake_script)()
+local function KQSUQ_fake_script() -- SpamTpZen.LocalScript 
+	local script = Instance.new('LocalScript', SpamTpZen)
+
+	local button = script.Parent
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		I = 1
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+		end
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		I = 0
+		while I == 1 do
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2544,5413,-493)
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+	
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(KQSUQ_fake_script)()
+local function ODPYK_fake_script() -- GuiGlow.LocalScript 
+	local script = Instance.new('LocalScript', GuiGlow)
+
+	local button = script.Parent
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		glow.ImageTransparency = 0
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		glow.ImageTransparency = 1
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(ODPYK_fake_script)()
+local function VYABOVY_fake_script() -- RedGui.RedScript 
+	local script = Instance.new('LocalScript', RedGui)
+
+	local button = script.Parent
+	local a = script.Parent.Parent.Parent.Parent.PvP.AutoAttack
+	local b = script.Parent.Parent.Parent.Parent.PvP.AntiPsychic
+	local c = script.Parent.Parent.Parent.Parent.PvP.AutoRespawn
+	local d = script.Parent.Parent.Parent.Parent.PvP.Cbring
+	local e = script.Parent.Parent.Parent.Parent.PvP.Cspam
+	local f = script.Parent.Parent.Parent.Parent.PvP.GodGui
+	local g = script.Parent.Parent.Parent.Parent.PvP.NoRep
+	local h = script.Parent.Parent.Parent.Parent.PvP.PsychicAll
+	local i = script.Parent.Parent.Parent.Parent.PvP.ShieldRemove
+	local j = script.Parent.Parent.Parent.Parent.PvP.Void
+	local k = script.Parent.Parent.Parent.Parent.PvP.PvPLabel
+	local l = script.Parent.Parent.Parent.Parent.Teleports.TeleportsLabel
+	local m = script.Parent.Parent.Parent.Parent.Training.TrainingLabel
+	local n = script.Parent.Parent.Parent.Parent.UniversalSettings.UniversalSettingsLabel
+	local o = script.Parent.Parent.Parent.Parent.UniversalSettings.Setting1
+	local p = script.Parent.Parent.Parent.Parent.MenuFrame.PvPButton
+	local q = script.Parent.Parent.Parent.Parent.MenuFrame.TrainingButton
+	local r = script.Parent.Parent.Parent.Parent.MenuFrame.TeleportsButton
+	local s = script.Parent.Parent.Parent.Parent.MenuFrame.UniversalSettingsButton
+	local t = script.Parent.Parent.Parent.Parent.Training.BlackHub
+	local u = script.Parent.Parent.Parent.Parent.Training.Split
+	local v = script.Parent.Parent.Parent.Parent.Training.Stats
+	local w = script.Parent.Parent.Parent.Parent.Training.SunTp
+	local x = script.Parent.Parent.Parent.Parent.Training.BtTp
+	local y = script.Parent.Parent.Parent.Parent.Training.ZenTp
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		a.TextColor3 = Color3.fromRGB(255, 0, 0)
+		a.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		b.TextColor3 = Color3.fromRGB(255, 0, 0)
+		b.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		c.TextColor3 = Color3.fromRGB(255, 0, 0)
+		c.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		d.TextColor3 = Color3.fromRGB(255, 0, 0)
+		d.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		e.TextColor3 = Color3.fromRGB(255, 0, 0)
+		e.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		f.TextColor3 = Color3.fromRGB(255, 0, 0)
+		f.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		g.TextColor3 = Color3.fromRGB(255, 0, 0)
+		g.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		h.TextColor3 = Color3.fromRGB(255, 0, 0)
+		h.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		i.TextColor3 = Color3.fromRGB(255, 0, 0)
+		i.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		j.TextColor3 = Color3.fromRGB(255, 0, 0)
+		j.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		k.TextColor3 = Color3.fromRGB(255, 0, 0)
+		k.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		l.TextColor3 = Color3.fromRGB(255, 0, 0)
+		l.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		m.TextColor3 = Color3.fromRGB(255, 0, 0)
+		m.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		n.TextColor3 = Color3.fromRGB(255, 0, 0)
+		n.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		o.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		o.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		p.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		p.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		q.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		q.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		r.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		r.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		s.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		s.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		t.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		u.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		u.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		v.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		v.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		w.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		w.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		x.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		x.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		y.TextColor3 = Color3.fromRGB(255, 0, 0) 
+		y.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		glow.ImageColor3 = Color3.fromRGB(255, 0, 0)
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		a.TextColor3 = Color3.fromRGB(0, 255, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		b.TextColor3 = Color3.fromRGB(0, 255, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		c.TextColor3 = Color3.fromRGB(0, 255, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		d.TextColor3 = Color3.fromRGB(0, 255, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		e.TextColor3 = Color3.fromRGB(0, 255, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		f.TextColor3 = Color3.fromRGB(0, 255, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		g.TextColor3 = Color3.fromRGB(0, 255, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		h.TextColor3 = Color3.fromRGB(0, 255, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		i.TextColor3 = Color3.fromRGB(0, 255, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		j.TextColor3 = Color3.fromRGB(0, 255, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		k.TextColor3 = Color3.fromRGB(0, 255, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		l.TextColor3 = Color3.fromRGB(0, 255, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		m.TextColor3 = Color3.fromRGB(0, 255, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		n.TextColor3 = Color3.fromRGB(0, 255, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		o.TextColor3 = Color3.fromRGB(0, 255, 255)
+		o.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		p.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		q.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		r.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		s.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		t.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		u.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		v.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		w.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		x.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		y.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+	end
+	
+	button.MouseButton1Down:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(VYABOVY_fake_script)()
+local function VTVSIL_fake_script() -- Purple.PurpleScript 
+	local script = Instance.new('LocalScript', Purple)
+
+	local button = script.Parent
+	local a = script.Parent.Parent.Parent.Parent.PvP.AutoAttack
+	local b = script.Parent.Parent.Parent.Parent.PvP.AntiPsychic
+	local c = script.Parent.Parent.Parent.Parent.PvP.AutoRespawn
+	local d = script.Parent.Parent.Parent.Parent.PvP.Cbring
+	local e = script.Parent.Parent.Parent.Parent.PvP.Cspam
+	local f = script.Parent.Parent.Parent.Parent.PvP.GodGui
+	local g = script.Parent.Parent.Parent.Parent.PvP.NoRep
+	local h = script.Parent.Parent.Parent.Parent.PvP.PsychicAll
+	local i = script.Parent.Parent.Parent.Parent.PvP.ShieldRemove
+	local j = script.Parent.Parent.Parent.Parent.PvP.Void
+	local k = script.Parent.Parent.Parent.Parent.PvP.PvPLabel
+	local l = script.Parent.Parent.Parent.Parent.Teleports.TeleportsLabel
+	local m = script.Parent.Parent.Parent.Parent.Training.TrainingLabel
+	local n = script.Parent.Parent.Parent.Parent.UniversalSettings.UniversalSettingsLabel
+	local o = script.Parent.Parent.Parent.Parent.UniversalSettings.Setting1
+	local p = script.Parent.Parent.Parent.Parent.MenuFrame.PvPButton
+	local q = script.Parent.Parent.Parent.Parent.MenuFrame.TrainingButton
+	local r = script.Parent.Parent.Parent.Parent.MenuFrame.TeleportsButton
+	local s = script.Parent.Parent.Parent.Parent.MenuFrame.UniversalSettingsButton
+	local t = script.Parent.Parent.Parent.Parent.Training.BlackHub
+	local u = script.Parent.Parent.Parent.Parent.Training.Split
+	local v = script.Parent.Parent.Parent.Parent.Training.Stats
+	local w = script.Parent.Parent.Parent.Parent.Training.SunTp
+	local x = script.Parent.Parent.Parent.Parent.Training.BtTp
+	local y = script.Parent.Parent.Parent.Parent.Training.ZenTp
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		a.TextColor3 = Color3.fromRGB(170, 0, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		b.TextColor3 = Color3.fromRGB(170, 0, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		c.TextColor3 = Color3.fromRGB(170, 0, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		d.TextColor3 = Color3.fromRGB(170, 0, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		e.TextColor3 = Color3.fromRGB(170, 0, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		f.TextColor3 = Color3.fromRGB(170, 0, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		g.TextColor3 = Color3.fromRGB(170, 0, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		h.TextColor3 = Color3.fromRGB(170, 0, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		i.TextColor3 = Color3.fromRGB(170, 0, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		j.TextColor3 = Color3.fromRGB(170, 0, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		k.TextColor3 = Color3.fromRGB(170, 0, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		l.TextColor3 = Color3.fromRGB(170, 0, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		m.TextColor3 = Color3.fromRGB(170, 0, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		n.TextColor3 = Color3.fromRGB(170, 0, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		o.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		o.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		p.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		q.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		r.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		s.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		t.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		u.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		v.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		w.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		x.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		y.TextColor3 = Color3.fromRGB(170, 0, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		glow.ImageColor3 = Color3.fromRGB(76, 0, 115)
+		
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		a.TextColor3 = Color3.fromRGB(0, 255, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		b.TextColor3 = Color3.fromRGB(0, 255, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		c.TextColor3 = Color3.fromRGB(0, 255, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		d.TextColor3 = Color3.fromRGB(0, 255, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		e.TextColor3 = Color3.fromRGB(0, 255, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		f.TextColor3 = Color3.fromRGB(0, 255, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		g.TextColor3 = Color3.fromRGB(0, 255, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		h.TextColor3 = Color3.fromRGB(0, 255, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		i.TextColor3 = Color3.fromRGB(0, 255, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		j.TextColor3 = Color3.fromRGB(0, 255, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		k.TextColor3 = Color3.fromRGB(0, 255, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		l.TextColor3 = Color3.fromRGB(0, 255, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		m.TextColor3 = Color3.fromRGB(0, 255, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		n.TextColor3 = Color3.fromRGB(0, 255, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		o.TextColor3 = Color3.fromRGB(0, 255, 255)
+		o.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		p.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		q.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		r.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		s.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		t.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		u.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		v.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		w.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		x.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		y.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(VTVSIL_fake_script)()
+local function JNDOY_fake_script() -- Orange.OrangeScript 
+	local script = Instance.new('LocalScript', Orange)
+
+	local button = script.Parent
+	local a = script.Parent.Parent.Parent.Parent.PvP.AutoAttack
+	local b = script.Parent.Parent.Parent.Parent.PvP.AntiPsychic
+	local c = script.Parent.Parent.Parent.Parent.PvP.AutoRespawn
+	local d = script.Parent.Parent.Parent.Parent.PvP.Cbring
+	local e = script.Parent.Parent.Parent.Parent.PvP.Cspam
+	local f = script.Parent.Parent.Parent.Parent.PvP.GodGui
+	local g = script.Parent.Parent.Parent.Parent.PvP.NoRep
+	local h = script.Parent.Parent.Parent.Parent.PvP.PsychicAll
+	local i = script.Parent.Parent.Parent.Parent.PvP.ShieldRemove
+	local j = script.Parent.Parent.Parent.Parent.PvP.Void
+	local k = script.Parent.Parent.Parent.Parent.PvP.PvPLabel
+	local l = script.Parent.Parent.Parent.Parent.Teleports.TeleportsLabel
+	local m = script.Parent.Parent.Parent.Parent.Training.TrainingLabel
+	local n = script.Parent.Parent.Parent.Parent.UniversalSettings.UniversalSettingsLabel
+	local o = script.Parent.Parent.Parent.Parent.UniversalSettings.Setting1
+	local p = script.Parent.Parent.Parent.Parent.MenuFrame.PvPButton
+	local q = script.Parent.Parent.Parent.Parent.MenuFrame.TrainingButton
+	local r = script.Parent.Parent.Parent.Parent.MenuFrame.TeleportsButton
+	local s = script.Parent.Parent.Parent.Parent.MenuFrame.UniversalSettingsButton
+	local t = script.Parent.Parent.Parent.Parent.Training.BlackHub
+	local u = script.Parent.Parent.Parent.Parent.Training.Split
+	local v = script.Parent.Parent.Parent.Parent.Training.Stats
+	local w = script.Parent.Parent.Parent.Parent.Training.SunTp
+	local x = script.Parent.Parent.Parent.Parent.Training.BtTp
+	local y = script.Parent.Parent.Parent.Parent.Training.ZenTp
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		a.TextColor3 = Color3.fromRGB(255, 85, 0)
+		a.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		b.TextColor3 = Color3.fromRGB(255, 85, 0)
+		b.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		c.TextColor3 = Color3.fromRGB(255, 85, 0)
+		c.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		d.TextColor3 = Color3.fromRGB(255, 85, 0)
+		d.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		e.TextColor3 = Color3.fromRGB(255, 85, 0)
+		e.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		f.TextColor3 = Color3.fromRGB(255, 85, 0)
+		f.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		g.TextColor3 = Color3.fromRGB(255, 85, 0)
+		g.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		h.TextColor3 = Color3.fromRGB(255, 85, 0)
+		h.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		i.TextColor3 = Color3.fromRGB(255, 85, 0)
+		i.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		j.TextColor3 = Color3.fromRGB(255, 85, 0)
+		j.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		k.TextColor3 = Color3.fromRGB(255, 85, 0)
+		k.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		l.TextColor3 = Color3.fromRGB(255, 85, 0)
+		l.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		m.TextColor3 = Color3.fromRGB(255, 85, 0)
+		m.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		n.TextColor3 = Color3.fromRGB(255, 85, 0)
+		n.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		o.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		o.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		p.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		p.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		q.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		q.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		r.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		r.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		s.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		s.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		t.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		u.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		u.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		v.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		v.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		w.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		w.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		x.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		x.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		y.TextColor3 = Color3.fromRGB(255, 85, 0) 
+		y.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		glow.ImageColor3 = Color3.fromRGB(255, 85, 0)
+		
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		a.TextColor3 = Color3.fromRGB(0, 255, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		b.TextColor3 = Color3.fromRGB(0, 255, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		c.TextColor3 = Color3.fromRGB(0, 255, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		d.TextColor3 = Color3.fromRGB(0, 255, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		e.TextColor3 = Color3.fromRGB(0, 255, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		f.TextColor3 = Color3.fromRGB(0, 255, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		g.TextColor3 = Color3.fromRGB(0, 255, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		h.TextColor3 = Color3.fromRGB(0, 255, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		i.TextColor3 = Color3.fromRGB(0, 255, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		j.TextColor3 = Color3.fromRGB(0, 255, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		k.TextColor3 = Color3.fromRGB(0, 255, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		l.TextColor3 = Color3.fromRGB(0, 255, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		m.TextColor3 = Color3.fromRGB(0, 255, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		n.TextColor3 = Color3.fromRGB(0, 255, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		o.TextColor3 = Color3.fromRGB(0, 255, 255)
+		o.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		p.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		q.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		r.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		s.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		t.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		u.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		v.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		w.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		x.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		y.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(JNDOY_fake_script)()
+local function HSNMHY_fake_script() -- Yellow.YellowScript 
+	local script = Instance.new('LocalScript', Yellow)
+
+	local button = script.Parent
+	local a = script.Parent.Parent.Parent.Parent.PvP.AutoAttack
+	local b = script.Parent.Parent.Parent.Parent.PvP.AntiPsychic
+	local c = script.Parent.Parent.Parent.Parent.PvP.AutoRespawn
+	local d = script.Parent.Parent.Parent.Parent.PvP.Cbring
+	local e = script.Parent.Parent.Parent.Parent.PvP.Cspam
+	local f = script.Parent.Parent.Parent.Parent.PvP.GodGui
+	local g = script.Parent.Parent.Parent.Parent.PvP.NoRep
+	local h = script.Parent.Parent.Parent.Parent.PvP.PsychicAll
+	local i = script.Parent.Parent.Parent.Parent.PvP.ShieldRemove
+	local j = script.Parent.Parent.Parent.Parent.PvP.Void
+	local k = script.Parent.Parent.Parent.Parent.PvP.PvPLabel
+	local l = script.Parent.Parent.Parent.Parent.Teleports.TeleportsLabel
+	local m = script.Parent.Parent.Parent.Parent.Training.TrainingLabel
+	local n = script.Parent.Parent.Parent.Parent.UniversalSettings.UniversalSettingsLabel
+	local o = script.Parent.Parent.Parent.Parent.UniversalSettings.Setting1
+	local p = script.Parent.Parent.Parent.Parent.MenuFrame.PvPButton
+	local q = script.Parent.Parent.Parent.Parent.MenuFrame.TrainingButton
+	local r = script.Parent.Parent.Parent.Parent.MenuFrame.TeleportsButton
+	local s = script.Parent.Parent.Parent.Parent.MenuFrame.UniversalSettingsButton
+	local t = script.Parent.Parent.Parent.Parent.Training.BlackHub
+	local u = script.Parent.Parent.Parent.Parent.Training.Split
+	local v = script.Parent.Parent.Parent.Parent.Training.Stats
+	local w = script.Parent.Parent.Parent.Parent.Training.SunTp
+	local x = script.Parent.Parent.Parent.Parent.Training.BtTp
+	local y = script.Parent.Parent.Parent.Parent.Training.ZenTp
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		a.TextColor3 = Color3.fromRGB(255, 255, 0)
+		a.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		b.TextColor3 = Color3.fromRGB(255, 255, 0)
+		b.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		c.TextColor3 = Color3.fromRGB(255, 255, 0)
+		c.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		d.TextColor3 = Color3.fromRGB(255, 255, 0)
+		d.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		e.TextColor3 = Color3.fromRGB(255, 255, 0)
+		e.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		f.TextColor3 = Color3.fromRGB(255, 255, 0)
+		f.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		g.TextColor3 = Color3.fromRGB(255, 255, 0)
+		g.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		h.TextColor3 = Color3.fromRGB(255, 255, 0)
+		h.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		i.TextColor3 = Color3.fromRGB(255, 255, 0)
+		i.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		j.TextColor3 = Color3.fromRGB(255, 255, 0)
+		j.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		k.TextColor3 = Color3.fromRGB(255, 255, 0)
+		k.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		l.TextColor3 = Color3.fromRGB(255, 255, 0)
+		l.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		m.TextColor3 = Color3.fromRGB(255, 255, 0)
+		m.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		n.TextColor3 = Color3.fromRGB(255, 255, 0)
+		n.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		o.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		o.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		p.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		p.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		q.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		q.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		r.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		r.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		s.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		s.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		t.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		u.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		u.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		v.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		v.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		w.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		w.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		x.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		x.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		y.TextColor3 = Color3.fromRGB(255, 255, 0) 
+		y.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		glow.ImageColor3 = Color3.fromRGB(255, 255, 0)
+		
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		a.TextColor3 = Color3.fromRGB(0, 255, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		b.TextColor3 = Color3.fromRGB(0, 255, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		c.TextColor3 = Color3.fromRGB(0, 255, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		d.TextColor3 = Color3.fromRGB(0, 255, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		e.TextColor3 = Color3.fromRGB(0, 255, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		f.TextColor3 = Color3.fromRGB(0, 255, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		g.TextColor3 = Color3.fromRGB(0, 255, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		h.TextColor3 = Color3.fromRGB(0, 255, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		i.TextColor3 = Color3.fromRGB(0, 255, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		j.TextColor3 = Color3.fromRGB(0, 255, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		k.TextColor3 = Color3.fromRGB(0, 255, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		l.TextColor3 = Color3.fromRGB(0, 255, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		m.TextColor3 = Color3.fromRGB(0, 255, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		n.TextColor3 = Color3.fromRGB(0, 255, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		o.TextColor3 = Color3.fromRGB(0, 255, 255)
+		o.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		p.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		q.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		r.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		s.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		t.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		u.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		v.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		w.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		x.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		y.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(HSNMHY_fake_script)()
+local function OTDCHHD_fake_script() -- Pink.PinkScript 
+	local script = Instance.new('LocalScript', Pink)
+
+	local button = script.Parent
+	local a = script.Parent.Parent.Parent.Parent.PvP.AutoAttack
+	local b = script.Parent.Parent.Parent.Parent.PvP.AntiPsychic
+	local c = script.Parent.Parent.Parent.Parent.PvP.AutoRespawn
+	local d = script.Parent.Parent.Parent.Parent.PvP.Cbring
+	local e = script.Parent.Parent.Parent.Parent.PvP.Cspam
+	local f = script.Parent.Parent.Parent.Parent.PvP.GodGui
+	local g = script.Parent.Parent.Parent.Parent.PvP.NoRep
+	local h = script.Parent.Parent.Parent.Parent.PvP.PsychicAll
+	local i = script.Parent.Parent.Parent.Parent.PvP.ShieldRemove
+	local j = script.Parent.Parent.Parent.Parent.PvP.Void
+	local k = script.Parent.Parent.Parent.Parent.PvP.PvPLabel
+	local l = script.Parent.Parent.Parent.Parent.Teleports.TeleportsLabel
+	local m = script.Parent.Parent.Parent.Parent.Training.TrainingLabel
+	local n = script.Parent.Parent.Parent.Parent.UniversalSettings.UniversalSettingsLabel
+	local o = script.Parent.Parent.Parent.Parent.UniversalSettings.Setting1
+	local p = script.Parent.Parent.Parent.Parent.MenuFrame.PvPButton
+	local q = script.Parent.Parent.Parent.Parent.MenuFrame.TrainingButton
+	local r = script.Parent.Parent.Parent.Parent.MenuFrame.TeleportsButton
+	local s = script.Parent.Parent.Parent.Parent.MenuFrame.UniversalSettingsButton
+	local t = script.Parent.Parent.Parent.Parent.Training.BlackHub
+	local u = script.Parent.Parent.Parent.Parent.Training.Split
+	local v = script.Parent.Parent.Parent.Parent.Training.Stats
+	local w = script.Parent.Parent.Parent.Parent.Training.SunTp
+	local x = script.Parent.Parent.Parent.Parent.Training.BtTp
+	local y = script.Parent.Parent.Parent.Parent.Training.ZenTp
+	local glow = script.Parent.Parent.Parent.Parent.Parent.Parent.Glow
+	
+	
+	local function ToggleOn()
+		button.BackgroundColor3 = Color3.fromRGB(0,255,0)
+		a.TextColor3 = Color3.fromRGB(255, 0, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		b.TextColor3 = Color3.fromRGB(255, 0, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		c.TextColor3 = Color3.fromRGB(255, 0, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		d.TextColor3 = Color3.fromRGB(255, 0, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		e.TextColor3 = Color3.fromRGB(255, 0, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		f.TextColor3 = Color3.fromRGB(255, 0, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		g.TextColor3 = Color3.fromRGB(255, 0, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		h.TextColor3 = Color3.fromRGB(255, 0, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		i.TextColor3 = Color3.fromRGB(255, 0, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		j.TextColor3 = Color3.fromRGB(255, 0, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		k.TextColor3 = Color3.fromRGB(255, 0, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		l.TextColor3 = Color3.fromRGB(255, 0, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		m.TextColor3 = Color3.fromRGB(255, 0, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		n.TextColor3 = Color3.fromRGB(255, 0, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		o.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		o.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		p.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		q.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		r.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		s.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		t.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		u.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		v.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		w.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		x.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		y.TextColor3 = Color3.fromRGB(255, 0, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+		glow.ImageColor3 = Color3.fromRGB(255, 0, 255)
+		
+	end
+	
+	
+	local function ToggleOff()
+		button.BackgroundColor3 = Color3.fromRGB(255,0,0)
+		a.TextColor3 = Color3.fromRGB(0, 255, 255)
+		a.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		b.TextColor3 = Color3.fromRGB(0, 255, 255)
+		b.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		c.TextColor3 = Color3.fromRGB(0, 255, 255)
+		c.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		d.TextColor3 = Color3.fromRGB(0, 255, 255)
+		d.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		e.TextColor3 = Color3.fromRGB(0, 255, 255)
+		e.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		f.TextColor3 = Color3.fromRGB(0, 255, 255)
+		f.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		g.TextColor3 = Color3.fromRGB(0, 255, 255)
+		g.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		h.TextColor3 = Color3.fromRGB(0, 255, 255)
+		h.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		i.TextColor3 = Color3.fromRGB(0, 255, 255)
+		i.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		j.TextColor3 = Color3.fromRGB(0, 255, 255)
+		j.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		k.TextColor3 = Color3.fromRGB(0, 255, 255)
+		k.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		l.TextColor3 = Color3.fromRGB(0, 255, 255)
+		l.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		m.TextColor3 = Color3.fromRGB(0, 255, 255)
+		m.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		n.TextColor3 = Color3.fromRGB(0, 255, 255)
+		n.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		o.TextColor3 = Color3.fromRGB(0, 255, 255)
+		o.TextStrokeColor3 = Color3.fromRGB(12, 15, 228)
+		p.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		p.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		q.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		q.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		r.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		r.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		s.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		s.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		t.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		t.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		u.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		u.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		v.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		v.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		w.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		w.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		x.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		x.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		y.TextColor3 = Color3.fromRGB(171, 86, 255) 
+		y.TextStrokeColor3 = Color3.fromRGB(86, 0, 129)
+		glow.ImageColor3 = Color3.fromRGB(170, 0, 255)
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if button.BackgroundColor3 == Color3.fromRGB(0,255,0) then
+			ToggleOff()
+			
+		elseif button.BackgroundColor3 == Color3.fromRGB(255,0,0) then
+			ToggleOn()
+		end
+	end)
+end
+coroutine.wrap(OTDCHHD_fake_script)()
+local function DTRYZQB_fake_script() -- CDM.LocalScript 
+	local script = Instance.new('LocalScript', CDM)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+	
+end
+coroutine.wrap(DTRYZQB_fake_script)()
+local function YPGNEMX_fake_script() -- Zoom.LocalScript 
+	local script = Instance.new('LocalScript', Zoom)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		repeat wait() until debug.getupvalues
+		local Mode = "Invisicam" -- dumb unupdated games
+		game:GetService("Players").LocalPlayer.CameraMinZoomDistance = 0.5
+		game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = 1000
+		game:GetService("Players").LocalPlayer.DevCameraOcclusionMode = Enum.DevCameraOcclusionMode[Mode]
+		game:GetService("Players").LocalPlayer.Changed:Connect(function()
+			game:GetService("Players").LocalPlayer.CameraMinZoomDistance = 0.5
+			game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = 1000
+			game:GetService("Players").LocalPlayer.DevCameraOcclusionMode = Enum.DevCameraOcclusionMode[Mode]
+		end)
+	
+	--[[for i,v in next, getgc() do
+		if (type(v) == "function" and (debug.getupvalues(v).charMap and debug.getupvalues(v).blacklist)) then
+			debug.getupvalues(v).charMap[Instance.new("Player")] = game:GetService("Workspace")
+			table.insert(debug.getupvalues(v).blacklist, game:GetService("Workspace"))
+			Mode = "Zoom"
+			game:GetService("Players").LocalPlayer.DevCameraOcclusionMode = Enum.DevCameraOcclusionMode[Mode]
+	    end
+	end]] -- one day ill update this fancy thingy so it works with luau, too lazy for now
+	end)
+end
+coroutine.wrap(YPGNEMX_fake_script)()
+local function STROTP_fake_script() -- ServerCrasher.LocalScript 
+	local script = Instance.new('LocalScript', ServerCrasher)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		local ScreenGui = Instance.new("ScreenGui")
+		local main = Instance.new("Frame")
+		local TextLabel = Instance.new("TextLabel")
+		local UIGradient = Instance.new("UIGradient")
+		local crash = Instance.new("TextButton")
+	
+		ScreenGui.Parent = game.CoreGui
+	
+		main.Name = "main"
+		main.Parent = ScreenGui
+		main.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+		main.Position = UDim2.new(0.780342519, 0, 0.466257662, 0)
+		main.Size = UDim2.new(0, 124, 0, 107)
+		main.Active = true
+		main.Draggable = true
+	
+		TextLabel.Parent = main
+		TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		TextLabel.Size = UDim2.new(0, 124, 0, 22)
+		TextLabel.Font = Enum.Font.SciFi
+		TextLabel.Text = "Corey's server crash"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextSize = 15.000
+		main.Active = true
+		main.Draggable = true
+	
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.13, Color3.fromRGB(254, 0, 0)), ColorSequenceKeypoint.new(0.23, Color3.fromRGB(10, 14, 255)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(13, 17, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(107, 255, 66)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(10, 255, 227)), ColorSequenceKeypoint.new(0.73, Color3.fromRGB(255, 255, 47)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(169, 19, 255)), ColorSequenceKeypoint.new(0.94, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+		UIGradient.Parent = TextLabel
+	
+		crash.Name = "crash"
+		crash.Parent = main
+		crash.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		crash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		crash.Position = UDim2.new(0.137096778, 0, 0.364485979, 0)
+		crash.Size = UDim2.new(0, 90, 0, 47)
+		crash.Font = Enum.Font.SourceSans
+		crash.Text = "crash server"
+		crash.TextColor3 = Color3.fromRGB(59, 42, 255)
+		crash.TextSize = 14.000
+		crash.MouseButton1Down:connect(function()
+	
+			local RunService = game:GetService("RunService")
+			RunService.Heartbeat:Connect(function(step)  
+				local RunService = game:GetService("RunService")
+				RunService.Heartbeat:Connect(function(step)  
+					local RunService = game:GetService("RunService")
+					RunService.Heartbeat:Connect(function(step)  
+						local RunService = game:GetService("RunService")
+						RunService.Heartbeat:Connect(function(step)  
+							local RunService = game:GetService("RunService")
+							RunService.Heartbeat:Connect(function(step)  
+								local RunService = game:GetService("RunService")
+								RunService.Heartbeat:Connect(function(step)  
+									local args = {
+										[1] = {
+											[1] = "Skill_KillingIntent_Start"
+										}
+									}
+									game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+								end)game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+							end)game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+						end)game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+					end)game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+				end)game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			end)
+		end)
+	
+	
+		local function QZVCK_fake_script()  
+			local script = Instance.new('Script', TextLabel)
+	
+			local thing = script.Parent
+			local uiGradient = thing:WaitForChild("UIGradient")
+			local tweenService = game:GetService("TweenService")
+	
+			while true do
+				local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+				tween:Play()
+				wait(2)
+				uiGradient.Offset = Vector2.new(1, 0)
+				local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+				tween2:Play()
+				wait(2)
+			end
+	
+		end
+		coroutine.wrap(QZVCK_fake_script)()
+	
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification", {
+			Title = 'Coreys gui',
+			Text = 'Corey is daddy',
+			Duration = 10.0,
+		}
+		)
+		wait()
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification", {
+			Title = 'side note',
+			Text = 'zoom ur camera all the way out and execute this multiple times and the game should kill itself',
+			Duration = 10.0,
+		}
+		)
+		wait()
+	end)
+end
+coroutine.wrap(STROTP_fake_script)()
+local function KPJOA_fake_script() -- OpenGui.LocalScript 
+	local script = Instance.new('LocalScript', OpenGui)
+
+	local frame = script.Parent.Parent.Glow.BackgroundFrame
+	local frame2 = script.Parent.Parent.Glow.BackgroundFrame.PvP
+	local frame3 = script.Parent.Parent.Glow.BackgroundFrame.SecretServerCrasher
+	local frame4 = script.Parent.Parent.Glow.BackgroundFrame.Teleports
+	local frame5 = script.Parent.Parent.Glow.BackgroundFrame.Training
+	local frame6 = script.Parent.Parent.Glow.BackgroundFrame.UniversalSettings
+	local frame7 = script.Parent.Parent.Glow.BackgroundFrame.MenuFrame
+	local glow = script.Parent.Parent.Glow
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.BackgroundTransparency == 1 then
+			frame.BackgroundTransparency = 0
+			frame2.Visible = true
+			frame7.Visible = true
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+			frame6.Visible = false
+			
+		elseif frame.BackgroundTransparency == 0 then
+			frame.BackgroundTransparency = 1
+			frame2.Visible = false
+			frame3.Visible = false
+			frame4.Visible = false
+			frame5.Visible = false
+			frame6.Visible = false
+			frame7.Visible = false
+			glow.BackgroundTransparency = 1
+	
+		end
+	end)
+	
+	
+end
+coroutine.wrap(KPJOA_fake_script)()
